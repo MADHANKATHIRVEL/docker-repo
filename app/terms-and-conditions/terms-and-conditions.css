@@ -1,0 +1,66 @@
+.terms-and-conditions-page {
+  position: relative;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.terms-and-conditions-page .page-content {
+  width: 70%;
+  text-align: left;
+}
+
+.terms-and-conditions-page .page-content p {
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.page-content .content {
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+ul li {
+  font-size: 14px;
+}
+
+.page-content .content h3 {
+  margin-top: 30px;
+ }
+
+@media (max-width: 550px) {
+  .page-content {
+    width: 90% !important;
+  }
+  .terms-and-conditions-page {
+    top: 30px;
+    margin-bottom: 30px;
+  }
+  .terms-and-conditions-page .page-content {
+    text-align: justify;
+  }
+  .page-content .content h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+ }
+
+ .page-content .content .content-govern{
+    text-align: justify !important;
+ }
+
+}
+
+@media (max-width: 768px) {
+  .terms-and-conditions-page {
+    top: 30px;
+    margin-bottom: 30px !important;
+  }
+}

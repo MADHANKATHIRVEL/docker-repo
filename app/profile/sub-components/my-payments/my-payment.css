@@ -1,0 +1,14 @@
+.my-payments{
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.my-invoices-table{
+    width: 100% !important;
+}

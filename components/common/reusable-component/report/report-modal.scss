@@ -1,0 +1,13 @@
+.report-modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 40;
+
+    .report-reason-select{
+        width: 250px;
+    }
+
+}

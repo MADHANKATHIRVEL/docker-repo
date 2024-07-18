@@ -1,0 +1,31 @@
+.albion_userId{
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.albion_user_button{
+    display: flex;
+    gap: 45px;
+}
+
+.albion_btn_{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.albion_btn_:hover{
+    background-color: green;
+    color: white;
+}

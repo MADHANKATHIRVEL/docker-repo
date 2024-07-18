@@ -1,0 +1,98 @@
+.ui-tab-right {
+    position: relative;
+    width: 80vw;
+}
+
+.ui-tab-right .inner-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ui-tab-right .inner-box .tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.ui-tab-right .inner-box .tab-contents {
+    width: 65%;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 1px solid #cccccc80;
+    border-radius: 4px;
+}
+
+.ui-tab-right .inner-box .tab-contents span {
+    position: relative;
+    top: 0px;
+    animation: fade-from-top normal ease-in .5s;
+}
+
+.activeTabBtn {
+    background-color: #8C193F !important;
+    color: white !important;
+    border: 1px solid #8C193F !important;
+    white-space: break-spaces;
+    height: auto;
+}
+
+.inActiveTabBtn {
+    background-color: white !important;
+    color: #8C193F !important;
+    border: 1px solid #8C193F !important;
+    white-space: break-spaces;
+    height: auto;
+}
+
+@keyframes fade-from-top {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px
+    }
+}
+
+@media (max-width : 800px) {
+    .ui-tab-right .inner-box {
+        height: auto;
+    }
+
+    .ui-tab-right .inner-box .tabs {
+        width: 100%;
+    }
+
+    .ui-tab-right .inner-box .tab-contents {
+        width: 100%;
+        padding: 10px 20px !important;
+    }
+
+    .tenant-plans-row, .know-reports, .why-you-need-tv{
+        height: auto;
+    }
+}
+
+@media (max-width : 800px) {
+    .ui-tab-right {
+        width: 80% !important;
+    }
+    
+}
+
+
+
+@media (max-width : 550px) {
+    .ui-tab-right .inner-box .tab-contents {
+      padding: 10px;
+      text-align: center;
+    }
+}

@@ -1,0 +1,168 @@
+.mobileAppImgAd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    border-radius: 6px;
+    width: 90%;
+    padding: 10px;
+    position: relative;
+}
+
+
+.mobileAppImgAd .appImage{
+    width: 100%;
+    height: 100%;
+    object-fit: unset;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+
+.mobileAppImgAd .mobileAppImgContainer .appImage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileAppImgAd .promoteText{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.mobileAppImgAd .promoteText .title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.mobileAppImgAd .promoteText .description{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.mobileAppImgAd .downloadBtns{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+}
+
+.mobileAppImgAd .downloadBtns .image-Containers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+} 
+
+.mobileAppImgAd .downloadBtns .image-Containers .downldImgs{
+    width: 120px;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+@media (max-width : 1400px){
+    .mobileAppImgAd{
+        width: 87%;
+    }
+    .mobileAppImgAd .downloadBtns .image-Containers{
+        display: flex;
+        flex-direction: column;
+    } 
+    .mobileAppImgAd .downloadBtns .image-Containers .downldImgs{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .mobileAppImgAd .mobileAppImgContainer .appImage{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .mobileAppImgAd .promoteText .title{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .mobileAppImgAd .promoteText .description{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .mobileAppImgAd .downloadBtns{
+        display: flex;
+        height: 100%;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.mobileAppImgAd .downloadBtns .image-Containers{
+    display: flex;
+} 
+.mobileAppImgAd .downloadBtns .image-Containers .downldImgs{
+    width: 100px;
+    object-fit: contain;
+}
+.mobileAppImgAd .mobileAppImgContainer{
+    width: 20%;
+    height: 100%;
+}
+.mobileAppImgAd .promoteText .title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.mobileAppImgAd .promoteText .description{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.mobileAppImgAd .downloadBtns{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width : 550px){
+    .mobileAppImgAd{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .mobileAppImgAd .downloadBtns .image-Containers{
+        display: flex;
+        flex-direction: column;
+    } 
+    .mobileAppImgAd .downloadBtns .image-Containers .downldImgs{
+        width: 40px;
+    }
+    
+}
+
+
+@media (max-width : 1100px){
+    .mobileAppImgAd{
+        height: auto;
+        padding: 0px;
+        width: 90%;
+    }
+    .mobileAppImgAd .downloadBtns .image-Containers .downldImgs{
+        transform: scale(0.8);
+    }
+    
+}
+
+@media(max-width : 780px){
+    .mobileAppImgAd{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,229 @@
+.newly-launched {
+    display: flex;
+    justify-content: center;
+
+    .newly-launched-properties {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+
+        &>div {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            h3 {
+                color: #8c193f;
+
+                span {
+                    color: #333;
+                    font-weight: 400;
+                }
+            }
+
+            &>a {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                gap: 5px;
+                cursor: pointer;
+                color: #737373;
+
+                img {
+                    height: 15px;
+                    width: 15px;
+                    transition: ease-in .2s;
+                }
+            }
+        }
+
+        .properties-new{
+            display: flex;
+            gap: 10px;
+
+            .new-property-card{
+                flex: 1;
+                border: 1px solid #cccccc;
+                box-sizing: border-box;
+                display: flex;
+                border-radius: 4px;
+                height: 180px;
+                cursor: pointer;
+
+                .new-property-image{
+                    width: 40%;
+                    height: 100%;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        transition: transform ease-in-out .2s;
+                    }
+                }
+
+                .new-property-description{
+                    width: 60%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    h2{
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: #737373;
+                        font-size: 14px;
+                    }
+                    span{
+                        color: #737373;
+                        font-size: 12px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 400;
+                    }
+
+                    .new-property-features{
+                        display: flex;
+                        box-sizing: border-box;
+                        padding: 5px 15px;
+                        background: #DCF5EC;
+                        border-radius: 4px;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .feature-row-np{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+
+                            img{
+                                height: 15px;
+                                width: 15px;
+                            }
+
+                            p,
+                            span{
+                                font-size: 14px;
+                                color: #333;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                &:hover {
+                    .new-property-image {
+                        img{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        .swiper-button-prev-unique-newly-launched,
+        .swiper-button-next-unique-newly-launched {
+            position: absolute;
+            transform: scale(1.3) !important;
+            cursor: pointer;
+            z-index: 10;
+            background: #fff;
+            border-radius: 50px;
+        }
+
+        .swiper-button-prev-unique-newly-launched{
+            left: -5%;
+            top: 48%;
+        }
+        .swiper-button-next-unique-newly-launched{
+            right:-5%;
+            top: 48%;
+            transform: scale(1.3) rotate(180deg) !important;
+        }
+
+    }
+}
+
+
+@media (max-width : 1100px){
+    .newly-launched .newly-launched-properties .properties-new .new-property-card .new-property-description .new-property-features{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width : 800px){
+    .properties-new{
+        flex-direction: column;
+        gap: 10px;
+        .new-property-card{
+            flex: 0 0!important;
+            gap: 0px !important;
+        }
+    }
+    .newly-launched .newly-launched-properties .properties-new {
+        justify-content: space-evenly !important;
+        gap: 20px !important;
+    }
+}
+
+@media (max-width : 550px){
+    .newly-launched{
+        margin-top: 20px;
+    }
+    .newly-launched-properties > div{
+        flex-direction: column !important;
+    }
+    .newly-launched .newly-launched-properties .properties-new .new-property-card{
+        height: 280px !important;
+        flex-direction: column !important;
+    }
+    .newly-launched .newly-launched-properties .properties-new .new-property-card .new-property-description .new-property-features{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .newly-launched .newly-launched-properties .properties-new .new-property-card .new-property-description .new-property-features .feature-row-np{
+        width: 100%;
+    }
+    .new-property-description .new-property-features{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+    }
+    .newly-launched-properties .new-property-image{
+        width: 100% !important;
+        height: 40% !important;
+    }
+    .newly-launched-properties .new-property-description{
+        height: 60% !important;
+        width: 100% !important;
+    }
+}
+
+
+.newly-launched-property-description {
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.newly-launched-swiper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}

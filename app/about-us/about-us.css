@@ -1,0 +1,124 @@
+.about_us-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  gap: 20px;
+  top: 10px;
+}
+
+.about__us-contents {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-us__title {
+  font-size: 22px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+}
+
+.why-albion-point {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.why-albion-point:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #cccccc30;
+}
+
+.why__albion-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.why-albion-point .why-albion__title {
+  font-size: 18px;
+  color: #333;
+}
+.why-albion-point .why-albion__desc {
+  font-size: 14px;
+  color: #737373;
+  font-weight: 400;
+}
+
+.about-us__description {
+  font-size: 14px;
+  color: #737373;
+  text-align: left;
+}
+
+@media (max-width: 550px) {
+  .about_us-page {
+    padding: 0px;
+    top: 30px;
+  }
+  .why-albion-point {
+    padding: 10px;
+    width: 100% !important;
+  }
+  
+  .why__albion-points {
+    justify-content: center;
+  }
+  .about__us-contents {
+    width: 90%;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+    top: 75px;
+}
+
+.about__us-contents{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .about-us__description{
+    text-align: center !important;
+    line-height: 30px;
+  }
+  .about-us__title {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .about-us-title-two{
+    margin-top: 30px !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+@media (min-width:550px) and (max-width:768px) {
+  .why__albion-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-us__title {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+}

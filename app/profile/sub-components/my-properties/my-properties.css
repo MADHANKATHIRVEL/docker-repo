@@ -1,0 +1,400 @@
+.my-properties-tab {
+    display: flex;
+    width: 90%;
+    padding: 3%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.myproperty__card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 14vw;
+}
+
+.property_image__container {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.property_image__container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.mypropertycard__left {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 5px;
+    align-items: center;
+}
+
+.my-property_description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.my-property_description .propertyId {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.my-property_description .propertyPostedLocation,
+.my-property_description .propertyPostedTimeline {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.myproperty_price-details {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.property_totalPrice {
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+
+.viewPostBtn {
+    background-color: #FFA825 !important;
+    color: white !important;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.viewPostBtn:hover {
+    background-color: white !important;
+    color: #FFA825 !important;
+    border: 1px solid #FFA825 !important;
+}
+
+
+.deletePostBtn,
+.deletePostBtn:hover {
+    background-color: white !important;
+    color: #666 !important;
+    font-style: normal;
+    font-weight: 600;
+    height: 40px;
+    border: 1px solid #666 !important;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.myproperties_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.myproperties_column .ant-select-selector {
+    border-radius: 50px !important;
+}
+
+.myproperties_column .ant-select-selector:hover {
+    border : 1px solid #cccccc !important;
+    cursor: pointer;
+}
+
+.status-tag{
+    height: 3vh;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+@media (max-width : 768px) {
+    
+.my-property_description .propertyId,
+.my-property_description .propertyName,
+.my-property_description .propertyPostedLocation,
+.my-property_description .propertyPostedTimeline  {
+    font-size: 0.8rem;
+}
+.property_totalPrice {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.property_perSqftPrice {
+    color: #737373;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.viewPostBtn,.deletePostBtn {
+    font-size: 0.7rem;
+}
+}
+
+
+
+@media (max-width : 500px) {
+    
+.my-property_description .propertyId,
+.my-property_description .propertyName,
+.my-property_description .propertyPostedLocation,
+.my-property_description .propertyPostedTimeline  {
+    font-size: 0.4rem;
+}
+.property_totalPrice {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.property_perSqftPrice {
+    color: #737373;
+    font-size: 0.4rem;
+    font-weight: 400;
+    height: 25px;
+}
+
+.viewPostBtn,.deletePostBtn {
+    font-size: 0.4rem;
+    height: 25px;
+}
+
+.my-propery-filter{
+    width: 100% !important;
+    justify-content: center !important;
+}
+}
+
+@media (max-width : 680px) {
+    .my-properties-tab{
+        width: 100%;
+    }
+    .viewPostBtn{
+        height: 5vh;
+        font-size: 1.5vw;
+    }
+    .deletePostBtn{
+        height: 5vh;
+        font-size: 1.5vw;
+    }
+    .albion-header .sub-head1 .top-section .dropdown, .albion-header .sub_head2 .filter-dropdowns .dropdown{
+        gap: 0px !important;
+    }
+}
+
+
+@media (max-width : 550px) {
+    .myproperty__card {
+        height: 15vh;
+    }
+    .viewPostBtn,
+    .deletePostBtn{
+        border-radius: 4px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5px;
+        height: 20px;
+    }
+
+    .status-tag{
+        height: 10px;
+        font-size: 6px;
+    }
+    
+
+}
+
+.my-propery-filter{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.my-propery-filter .ant-select-selector{
+    width: 220px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 4px !important;
+}
+
+.editPropertyBtn{
+    border-radius:  4px !important;
+    background-color: #8C193F !important;
+    color: white !important;
+    border: 1px solid #8C193F !important;
+}
+
+.editPropertyBtn:hover{
+    background-color: white !important;
+    border: 1px solid #8C193F !important;
+    color: #8C193F !important;
+}
+
+
+.markassoldbtn{
+    border-radius: 4px !important;
+    background-color: #D5F5E3 !important;
+    color: #1E8449 !important;
+    border: 1px solid #1E8449 !important;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.edit-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+@media (min-width:550px) and (max-width:768px) {
+    .mypropertycard__left {
+        width: 50%;
+        display: grid;
+    }
+    .myproperty__card {
+        height: 200px;
+    }
+}
+
+@media (max-width:550px){
+    .mypropertycard__left {
+        width: 100%;
+        display: grid;
+        place-items: center !important;
+        gap: 20px;
+    }
+    .myproperty__card {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 30px;
+    }
+
+    .my-property_description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    
+    .status-tag{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .my-property_description .propertyId , .propertyPostedLocation, .propertyPostedTimeline{
+        font-size: 14px !important;
+    }
+    .myproperty_price-details {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        align-items: center !important;
+    }
+
+    .property_image__container {
+        height: 100%;
+        width: 80%;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width : 800px){
+    .edit-section{
+        gap: 4px;
+    }
+    .profile-tabs,
+    .edit-profile{
+        width: 90%;
+    }
+}
+
+@media (min-width:550px) and (max-width:768px) {
+    .my-propery-filter{
+        justify-content: center !important;
+    }
+}
+
+.flex-col-10 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-col-10 > p{
+    font-size: 16px;
+    font-weight: 600
+}
+
+.dueToTag {
+    background: #E6B0AA;
+    color: #A93226;
+    border: 1px solid #A93226;
+    border-radius: 0px
+}
+
+.duetotag-container{
+    display : flex ;
+    gap : 10px;
+    flex-wrap : wrap;
+}
+
+.fetchingsrc{
+    margin: 0 auto;
+}
+
+.property-status-select{
+    width: 400px !important;
+    color: white;
+}
+
+.delete-reason-properties{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.select-delete-reason{
+    width: 180px
+}
+
+@media (max-width : 550px){
+    .my-propery-filter .ant-select-selector{
+        width: auto !important;
+    }
+}

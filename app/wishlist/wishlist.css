@@ -1,0 +1,192 @@
+.wishlist_page{
+    position: relative;
+    top: 100px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15%;
+}
+
+
+.wishlist_page > h2{
+    font-size: 24px;
+}
+
+.list-section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 350px);
+    grid-gap: 20px;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.itemContainer{
+    height: 250px;
+    position: relative;
+    border: 1px solid #cccccc90;
+    border-radius: 4px;
+    display: flex;   
+    box-sizing: border-box;
+    padding: 10px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.itemContainer img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.itemContainer .property-details{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    transition: width ease-in .5s;
+    background-color: #cccccc40;
+    position: relative;
+    left: 0px;
+    animation: slide-in ease-in .2s;
+}
+
+.heart-filled{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.wishlist_property_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemContainer .property-info{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 95%;
+    top: 0%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #cccccceb;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    animation: propertyInfoAnime .1s ease-in ;
+    gap: 10px;
+}
+
+
+.property-info .pName{
+    font-size: 16px;
+    font-weight: 600;
+}
+.property-info .ePrice{
+    font-size: 14px;
+    font-weight: 500;
+}
+.property-info .loc{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.itemContainer:hover{
+    cursor: pointer;
+}
+
+
+@keyframes propertyInfoAnime {
+    from {
+        top: 100%;
+    }
+    top {
+        top: 0%;
+    }
+}
+
+@keyframes slide-in{
+    from {
+        left: 50%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+
+.wishlist-card{
+    overflow: hidden;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    border: 1px solid #737373;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.wishlist-card .wishlisted-image{
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+    transition: transform ease-in-out .2s;
+}
+
+
+.wishlist-card:hover .wishlisted-image{
+    transform: scale(1.2);
+}
+
+.wishlist-card span{
+    font-size: 14px;
+}
+
+.wishlist-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}
+
+.wishlist-card .property-title{
+    font-weight: 600;
+    color: #333;
+}
+.wishlist-card .property-price{
+    color: #333;
+    font-weight: 600;
+}
+.wishlist-card .property-place{
+    color: #333;
+    font-weight: 600;
+}
+
+.wishlist-card .exact-loc{
+    color: #737373;
+}
+
+.wishlist-card-area {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+    gap: 5px;
+    word-wrap: break-word;
+}
+.wishlist-property-image {
+    width: 55%;
+    overflow: hidden;
+    height: 90%;
+}

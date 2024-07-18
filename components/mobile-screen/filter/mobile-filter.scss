@@ -1,0 +1,183 @@
+$theme-color : #8c193f;
+
+.mobile-filter-section {
+    display: none;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+    min-height: 100vh;
+
+    .mobile-filter-card-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .hero-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &>span {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            &>p {
+                font-size: 14px;
+                color: #000000;
+                font-weight: 500;
+            }
+
+            &>a {
+                font-size: 12px;
+                color: $theme-color;
+                font-weight: 500;
+            }
+
+
+        }
+
+        .filter-inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            &>label {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            .single-input{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .budget-input-select {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .budget-selector-width {
+                    width: 45%;
+                }
+            }
+
+            .property-type-select {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+                overflow: scroll;
+                height: 90px;
+                box-sizing: border-box;
+                padding: 10px;
+
+                .property-card {
+                    display: flex;
+                    cursor: pointer;
+                    flex-direction: column;
+                    min-width: 90px;
+                    width: 90px;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #cccccc;
+                    border-radius: 4px;
+                    gap: 2px;
+                }
+
+
+            }
+
+            .bhk-row {
+                display: flex;
+                width: 100%;
+                gap: 5px;
+                overflow: scroll;
+                box-sizing: border-box;
+                padding: 10px;
+
+                .bhk-item {
+                    min-width: 80px;
+                    width: 80px;
+                    border: 1px solid #cccccc;
+                    border-radius: 50px;
+                    height: 30px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .availability-select{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                gap: 10px;
+                .availability-card{
+                    border: 1px solid #cccccc;
+                    box-sizing: border-box;
+                    padding: 2px 8px;
+                    border-radius: 50px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+
+                    p{
+                        font-size: 12px;
+                        color: #737373;
+                    }
+
+                }
+            }
+
+            .activeCard {
+                background: #8c193f10;
+                color: #8c193f;
+                font-weight: 500;
+                border: 1px solid $theme-color;
+
+                p{
+                    color: #8c193f !important;
+                }
+            }
+        }
+
+        .view-property-container {
+            width: 90%;
+            background: #fff;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            bottom: 70px;
+
+            .view-properties-btn {
+                border-radius: 10px;
+                background: #8c193f;
+                color: #fff;
+                width: 100%;
+                margin: 0 auto;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width : 550px) {
+
+    .mobile-filter-section {
+        display: block;
+    }
+
+}

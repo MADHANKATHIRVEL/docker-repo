@@ -1,0 +1,40 @@
+.user-default-image {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.logged-in-user-name {
+    font-size: 12px;
+
+    .user-typetag {
+        background: purple;
+        color: #fff;
+    }
+}
+
+.user-profile-image {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 30px;
+    width: 35px;
+}
+
+.profile-drawer-head {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-hero-section{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    background:#8c193f30;
+    border-radius: 4px
+}

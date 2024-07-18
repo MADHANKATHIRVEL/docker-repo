@@ -1,0 +1,252 @@
+.trending-projects-area {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    margin: 0 auto;
+    height: 330px;
+    margin-top: 30px;
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        h2 {
+            color: #8c193f;
+            font-weight: 400;
+
+            span {
+                color: #333;
+                font-weight: 400;
+            }
+        }
+
+        &>a {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            gap: 5px;
+            cursor: pointer;
+            color: #737373;
+
+            img {
+                height: 15px;
+                width: 15px;
+                transition: ease-in .2s;
+            }
+
+            &:hover img {
+                transform: rotate(-45deg);
+            }
+
+        }
+    }
+
+    .swiper-wrapper {
+        height: 280px;
+        display: flex;
+
+        .trending-property-card {
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 280px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            .tp-card-link {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                    &>img {
+                            height: 50%;
+                            width: 100%;
+                            transition: transform ease-in .2s;
+                            display: flex;
+                            margin: 0 auto;
+                            overflow: hidden;
+                        }
+
+                .card-bottom {
+                    height: 50%;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+
+                    h4 {
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 400;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        color: #737373;
+                        font-weight: 400;
+                    }
+
+                    &>div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+
+                        &>div {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+
+                            img {
+                                height: 16px;
+                                width: 16px;
+                            }
+
+                            span {
+                                font-size: 14px;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                .card-top {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-button-prev-unique-trending-projects,
+    .swiper-button-next-unique-trending-projects {
+        position: absolute;
+        transform: scale(1.3) !important;
+        cursor: pointer;
+        z-index: 10;
+        background: #fff;
+        border-radius: 50px;
+    }
+
+    .swiper-button-prev-unique-trending-projects {
+        left: -5%;
+        top: 48%;
+    }
+
+    .swiper-button-next-unique-trending-projects {
+        right: -5%;
+        top: 48%;
+        transform: scale(1.3) rotate(180deg) !important;
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background: #8C193F !important;
+    color: #fff !important;
+}
+
+.trending-project-swiper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width : 770px){
+    .tp-card-link{
+        img{
+            object-fit: cover;
+        }
+    }
+}
+
+
+.set-height-auto{
+    height: auto;
+}
+
+@media (max-width : 550px){
+    .trending-project-swiper{
+        display: none !important;
+    }
+    .swiper-button-next-unique-trending-projects,
+    .swiper-button-prev-unique-trending-projects{
+        display: none;
+    }
+    .trending-projects-area{
+        height: 310px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .trending-property-card-mobile{
+        min-width: 230px;
+        width: 230px;
+        overflow: hidden;
+        height: 100%;
+        .tp-card-link-mobile{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            overflow: hidden;
+            .card-bottom-mobile{
+                box-sizing: border-box;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 50%;
+                
+                & > h4{
+                    font-size: 14px;
+                }
+
+                & > p{
+                    font-size: 16px;
+                }
+
+                & > span{
+                    font-size: 12px;
+                    color: #737373;
+                }
+
+                & > .features-in-trending-project{
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                }
+
+                .tp-feature{
+                    display: flex;
+                    gap: 2px;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    & > span{
+                        font-size: 10px;
+                        color: #737373;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                }
+            }
+        }
+    }
+}

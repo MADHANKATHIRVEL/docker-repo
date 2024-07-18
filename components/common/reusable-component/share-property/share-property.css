@@ -1,0 +1,13 @@
+.ant-divider{
+    margin: 10px !important;
+}
+.copy-text-container{
+    display: flex;
+    gap: 10px;
+    word-break : break-all
+}
+
+.copy-text-container .copy-outlined{
+    cursor: pointer;
+    transform: scale(1.2)
+}

@@ -1,0 +1,410 @@
+.tenant-verification-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 75px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tenant-verification_importance {
+  width: 80%;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.tenant-verification_importance span {
+  font-size: 16px;
+  color: #737373;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.banner-section {
+  height: 250px;
+}
+
+.banner-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* @media (max-width : 800px){
+    .tenant-verification-page{
+        top: 90px;
+    }
+} */
+
+@media (max-width: 550px) {
+  .tenant-verification-desc {
+    font-size: 10px !important;
+    line-height: 20px !important;
+  }
+
+  .first-row {
+    padding: 0px 10px;
+    width: 100% !important;
+  }
+
+  .first-row span {
+    font-size: 12px;
+  }
+
+  .grid-box {
+    height: auto !important;
+  }
+  .tenant-verification_importance {
+    width: 95% !important;
+  }
+}
+
+.tenant-plans-row {
+  width: 95%;
+}
+
+.tenant-verification-plan-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 20px;
+}
+
+.tenant-verification-plan-card {
+  border: 1px solid #cccccc;
+  height: auto;
+  width: 350px;
+  background-color: #cccccc30;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  gap: 15px;
+  border-radius: 4px;
+}
+
+.tenant-verification-plan-card:hover {
+  background-color: #cccccc70;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.buyTenantPlanBtn {
+  background-color: #8c193f !important;
+  border: 0px !important;
+  color: white !important;
+}
+
+.section__heading {
+  font-size: 24px !important;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.tenant-verification-desc {
+  font-size: 16px;
+  color: #737373;
+}
+
+.first-row .valuation-grid,
+.know-reports .valuation-grid,
+.why-you-need-tv .valuation-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.first-row .valuation-grid .grid-box,
+.know-reports .valuation-grid .grid-box,
+.why-you-need-tv .valuation-grid .grid-box {
+  border: 1px solid #cccccc90;
+  width: 280px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  transition: background-color ease-in 0.2s;
+}
+
+.first-row .valuation-grid .grid-box:hover,
+.know-reports .valuation-grid .grid-box:hover,
+.why-you-need-tv .valuation-grid .grid-box:hover {
+  background-color: #8c193f !important;
+  color: white !important;
+  cursor: pointer;
+}
+.first-row .valuation-grid .grid-box .pv-title,
+.know-reports .valuation-grid .grid-box .pv-title,
+.why-you-need-tv .valuation-grid .grid-box .pv-title {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.first-row .valuation-grid .grid-box .pv-desc,
+.know-reports .valuation-grid .grid-box .pv-desc,
+.why-you-need-tv .valuation-grid .grid-box .pv-desc {
+  text-align: left !important;
+  color: #737373;
+  font-size: 14px !important;
+}
+
+.first-row .valuation-grid .grid-box:hover .pv-desc,
+.know-reports .valuation-grid .grid-box:hover .pv-desc,
+.why-you-need-tv .valuation-grid .grid-box:hover .pv-desc {
+  color: white !important;
+}
+
+.tenant-plans-row,
+.know-reports,
+.why-you-need-tv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.first-row .tab-selection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 10px;
+}
+
+.first-row .tenant-verification-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.first-row .tenant-verification-step {
+  margin-top: 1%;
+  width: 80%;
+  text-align: center;
+  word-wrap: break-word;
+  border: 1px solid #cccccc90;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.first-row .activeStep {
+  height: 35px;
+  background: #8c193f !important;
+  color: white !important;
+  width: fit-content;
+}
+
+.first-row .inActiveStep {
+  height: 35px;
+  width: fit-content;
+  border: 1px solid #8c193f !important;
+  color: #8c193f !important;
+}
+
+.benefit-price {
+  display: flex;
+  gap: 10px;
+}
+
+.benefit-price .check{
+  color: green;
+}
+.benefit-price .close{
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .first-row {
+    width: 95%;
+    align-items: center;
+  }
+  .tenant-plans-row .section__heading {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .know-reports .section__heading {
+    text-align: center;
+  }
+
+  .why-you-need-tv {
+    width: 95%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .tenant-verification-page .static__banner {
+    display: none !important;
+  }
+  .tenant-verification-page {
+    top: 30px !important;
+  }
+  .first-row {
+    width: 100% !important;
+  }
+
+  .first-row span {
+    font-size: 16px !important;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .first-row .section__heading {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .tenant-verification-desc {
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+
+  .first-row .valuation-grid,
+  .know-reports .valuation-grid,
+  .why-you-need-tv .valuation-grid {
+    gap: 25px;
+  }
+
+  .first-row .grid-box,
+  .know-reports .grid-box,
+  .why-you-need-tv .grid-box {
+    border: 1px solid #cccccc80;
+    box-sizing: border-box;
+    padding: 20px;
+    height: auto !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+      rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  }
+
+  .valuation-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .grid-box {
+    width: 90% !important;
+  }
+
+  .grid-box:hover,
+  .grid-box:hover .pv-desc {
+    background-color: #8c193f !important;
+    color: white !important;
+  }
+
+  .grid-box .pv-title,
+  .tenant-verification-price {
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+
+  .grid-box .pv-desc {
+    font-size: 16px !important;
+    color: #737373;
+    line-height: 28px !important;
+  }
+
+  .tenant-verification-plan-grid {
+    gap: 20px;
+  }
+
+  .know-reports,
+  .tenant-plans-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .benefit-price {
+    display: flex;
+    gap: 14px;
+  }
+  .why-you-need-tv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+  .whyneed {
+    width: 80%;
+    line-height: 35px;
+    text-align: center;
+  }
+  .tenant-verification_importance {
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .tenant-verification_importance .section__heading {
+    line-height: 35px;
+  }
+  .section__heading {
+    text-align: center;
+  }
+  .first-row .tab-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100% !important;
+  }
+  .first-row .activeStep {
+    height: 35px;
+    background: #8c193f !important;
+    color: white !important;
+    width: 95%;
+  }
+
+  .first-row .inActiveStep {
+    height: 35px;
+    width: 95%;
+    border: 1px solid #8c193f !important;
+    color: #8c193f !important;
+  }
+  .first-row .tenant-verification-step {
+    margin-top: 10px;
+    width: 95%;
+  }
+}
+
+
+
+
+.tv-tag {
+  color: #000;
+  background: #FC950D;
+  border-radius: 50px;
+  transform: scale(1.3);
+  font-weight: 600;
+}

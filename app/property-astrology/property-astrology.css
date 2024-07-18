@@ -1,0 +1,186 @@
+.property-astrology-page{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+    top: 75px;
+}
+
+
+.property-astrology-page .main-intro{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.property-astrology-page .main-intro span{
+    color: #333;
+}
+
+.design-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 28%;
+    padding: 20px;
+    text-align: left;
+    gap: 10px;
+    transition: box-shadow ease-in-out .2s;
+}
+
+.design-card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.why-propery-astrology{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.why-astrology-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.why-astrology-section h5{
+    font-size: clamp(12px , 15vw , 24px);
+}
+
+.design-card .cardtitle{
+    font-size: "clamp(12px , 5vw , 16px)";
+    font-weight: 600;
+}
+.design-card .carddescription{
+    font-size: "clamp(10px , 5vw , 14px)";
+    color: #444444;
+}
+
+
+@media (max-width : 700px){
+    .why-propery-astrology{
+        display: flex;
+        flex-direction: column;
+    }
+    .design-card{
+        width: 100%;
+    }
+}
+
+.mailusbtn{
+    border-radius: 0px !important;
+    width: 210px !important;
+    height: 40px; 
+    background-color: #8C193F !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    gap: 5px;
+}
+
+.mailusbtn:hover{
+    background-color: white !important;
+    color: #8C193F !important;
+    border: 1px solid #8C193F !important;
+}
+
+.btnSection{
+    margin-top: 20px;
+}
+
+
+@media (max-width : 800px){
+    .property-astrology-page .main-intro,
+    .why-propery-astrology{
+        width: 95%;
+    }
+    .design-card {
+        width: 40%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    transition: box-shadow ease-in-out .2s;
+    }
+    .main-intro span{
+        font-size: 16px !important;
+        color: #737373 !important;
+        text-align: center !important;
+    }
+    .property-astrology-page{
+        top: 30px;
+    }
+    .why-astrology-section{
+        margin-top: 30px !important ;
+    }
+
+}
+
+@media (max-width : 550px){
+    .property-astrology-page{
+        top: 110px;
+        margin-bottom: 45%;
+    }
+    
+    .property-astrology-page .main-intro{
+        width: 90%;
+    }
+
+    .main-intro h2{
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+    .main-intro span{
+        font-size: 14px !important;
+        color: #737373 !important;
+        text-align: justify !important;
+    }
+    .why-astrology-section{
+        margin-top: 60px !important ;
+    }
+    
+    .why-astrology-section h5{
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .why-propery-astrology{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        gap : 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .design-card{
+        width: 95%;
+        align-items: center;
+    }
+    .cardtitle{
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+    .carddescription{
+        font-size: 14px !important;
+        text-align: center !important;  
+    }
+}
+

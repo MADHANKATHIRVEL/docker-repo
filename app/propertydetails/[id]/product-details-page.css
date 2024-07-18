@@ -1,0 +1,1621 @@
+.product-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 75px;
+    background: #F5F5F5;
+  }
+  
+  .project-review {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .project-information {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+  
+  .owner-details {
+    width: 30%;
+    min-height: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    top: 20%;
+  }
+  
+  
+  .project-images-section {
+    display: flex;
+  }
+  
+  
+  .single-item-head-text {
+    text-align: left;
+    color: #333;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .otherImages {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+
+.project-review {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-information {
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+}
+
+
+
+.project-images-section {
+  display: flex;
+}
+
+
+.coverImage {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.single-item-head-text {
+  text-align: left;
+  color: #333;
+  position: relative;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 5px;
+}
+
+.otherImages {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.otherImages a {
+  width: 95% !important;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-image {
+  width: 80%;
+  height: 8vh;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.static-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #adadad;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 100px;
+}
+
+.product-details-page .features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2%;
+  align-items: center;
+}
+
+.product-details-page .features .single-features .feature-img-container {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.product-details-page .features .single-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.contactOwnerBtn {
+  background-color: #8c193f !important;
+  color: white !important;
+  border-radius: 4px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .single-item-head-text {
+    font-size: 14px;
+  }
+
+  .static-card {
+    transform: scale(0.8);
+  }
+
+  .project-images-section {
+    height: 48vh;
+    width: 52vw;
+  }
+
+  .item-title {
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .item-location {
+    display: flex;
+    font-size: 14px;
+    width: 58%;
+    font-weight: 500;
+    color: #666666;
+  }
+
+  .item-by {
+    color: #8c193f;
+  }
+
+  .item-config {
+    width: 95%;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+  }
+
+  .single-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .prop-important-details {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .other-detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .other-detail-title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+  }
+
+  .other-detail-value {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .owner-details {
+    width: 30%;
+    background-color: white;
+    margin-top: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border: 1px solid #cccccc;
+  }
+
+  .owner-details .head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .owner-details .head .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .owner-details .head .option .optionText {
+    color: #737373;
+  }
+
+  .owner-details .head .option .optionIcon {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .amt_detail {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .amt_detail .price {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .loan_link {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8c193f;
+    cursor: pointer;
+  }
+
+  .builder-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contact-builder_head {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .contact-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .contact-number {
+    font-size: 14px;
+    color: #737373;
+  }
+
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .bookVisitBtn {
+    border: 1px solid #8c193f;
+    color: #8c193f;
+  }
+
+  .contactOwnerBtn {
+    background-color: #8c193f !important;
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    text-decoration: none;
+    border: var(--btn-border);
+    color: var(--btn-text-color);
+    background: var(--btn-bg);
+  }
+
+  .contactOwnerBtn:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .contactOwnerBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+  }
+
+  .btn-anim::before {
+    animation: shine 2s ease-in-out infinite;
+  }
+
+  .bookVisitBtn:hover {
+    border: 1px solid #8c193f !important;
+    color: #8c193f !important;
+  }
+
+  .contactOwnerBtn:hover {
+    background-color: #8c193f !important;
+    color: white !important;
+    border: 1px solid transparent !important;
+  }
+
+  .bookVisitBtn,
+  .contactOwnerBtn {
+    height: 40px;
+  }
+
+  .about_property {
+    background-color: white;
+    height: 60vh;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border: 1px solid #cccccc;
+    padding-bottom: 14px;
+  }
+
+  .abt_prpty_title,
+  .pg-rules-heading {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .abt-property-row {
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 14px;
+  }
+
+  .abt-property-row .col1 {
+    width: 30%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .abt-property-row .col2 {
+    width: 55%;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .prop-description {
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .prop-description .desc {
+    color: #666666;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .amenities-card {
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+  }
+
+  .amenity-col {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    gap: 5px;
+  }
+
+  .amenity-col img {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+  .amenity-col span {
+    font-size: 14px;
+  }
+
+  .home-loan-details {
+    height: auto;
+    padding: 5%;
+  }
+
+  .top-section {
+    display: flex;
+    font-size: 14px;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .top-section .leftSide {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .top-section .rightSide {
+    width: 20%;
+  }
+
+  .more-off-on-albion {
+    font-weight: 600;
+  }
+
+  .more-off-on-albion-sub-text {
+    font-size: 14px;
+    color: #666666;
+  }
+
+  .abt-albion {
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .other-banks {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .other-banks-title {
+    display: flex;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .other-bank-images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  }
+
+  .locality-reviews {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+}
+
+.single-item-head-text {
+  font-size: 14px;
+}
+
+.static-card {
+  transform: scale(0.8);
+}
+
+.project-images-section {
+  margin-top: 14px;
+  height: 50vh;
+  width: 52vw;
+}
+
+.item-title {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.item-location {
+  display: flex;
+  font-size: 14px;
+  width: max-content;
+  gap: 14px;
+  font-weight: 500;
+  color: #666666;
+  word-wrap: break-word;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: left;
+  text-decoration: none;
+}
+
+.item-by {
+  color: #8c193f;
+}
+
+.item-config {
+  width: 95%;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.single-config {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.icons {
+  width: auto !important;
+  height: auto !important;
+}
+
+.prop-important-details {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-detail-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+
+.property-detail {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  border: 1px solid #cccccc;
+  word-break: break-all;
+}
+
+.other-detail-value {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.owner-details {
+  width: 30%;
+  background-color: white;
+  margin-top: 5%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid #cccccc;
+}
+
+.owner-details .head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.owner-details .head .option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.owner-details .head .option .optionText {
+  color: #737373;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.owner-details .head .option .optionIcon {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.amt_detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.amt_detail .price {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.loan_link {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8c193f;
+  cursor: pointer;
+}
+
+.builder-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-builder_head {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact-number {
+  font-size: 14px;
+  color: #737373;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bookVisitBtn {
+  border: 1px solid #8c193f;
+  color: #8c193f;
+}
+
+.contactOwnerBtn:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.contactOwnerBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.384),
+    transparent
+  );
+}
+
+.btn-anim::before {
+  animation: shine 1.5s ease-in-out infinite;
+}
+
+.bookVisitBtn:hover {
+  border: 1px solid #8c193f !important;
+  color: #8c193f !important;
+}
+
+.contactOwnerBtn:hover {
+  background-color: #8c193f !important;
+  color: white !important;
+  border: 1px solid transparent !important;
+}
+
+.bookVisitBtn,
+.contactOwnerBtn {
+  height: 40px;
+}
+
+.about_property {
+  background-color: white;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #cccccc;
+  padding-bottom: 14px;
+  border-radius: 4px;
+}
+
+.abt_prpty_title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.abt-property-row {
+  width: 100%;
+  font-size: 14px;
+  color: #666666;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.abt-property-row .col1 {
+  width: 30%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.abt-property-row .col2 {
+  width: 55%;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.amenities-card {
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.amenities-card > div{
+  box-sizing: border-box;
+  padding: 20px
+}
+
+.amenity-col {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  height: 80px;
+  width: 130px;
+  overflow: hidden;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amenities-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.amenity-col img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.amenity-col span {
+  font-size: 14px;
+}
+
+.home-loan-offers{
+  margin-top: 30px !important;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  width: 150%;
+}
+
+.home-loan-details {
+  height: auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-loan-details .top-section {
+  display: flex;
+  font-size: 14px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.top-section .leftSide {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  gap: 14px;
+}
+
+.top-section .rightSide {
+  width: 20%;
+}
+
+.more-off-on-albion {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.more-off-on-albion-sub-text {
+  font-size: 14px;
+  color: #666666;
+}
+
+.abt-albion {
+  font-size: 14px;
+  color: #666666;
+  text-align: left;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-banks {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.other-banks-title {
+  display: flex;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+
+.other-bank-images {
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.locality-reviews {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+@media (max-width: 850px) {
+  .project-review {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .project-information {
+    width: 100%;
+  }
+
+  .project-images-section {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .item-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .item-location {
+    font-size: 14px;
+  }
+
+  .single-config {
+    border: 1px solid;
+  }
+
+  .product-details-page .features .single-features {
+    font-size: 14px;
+  }
+
+  .product-details-page .features {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .other-detail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .other-detail-title {
+    font-size: 14px;
+  }
+
+  .other-detail-value {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .abt_prpty_title {
+    font-size: 16px;
+  }
+
+  .abt-property-row .col1 {
+    font-size: 14px;
+  }
+
+  .abt-property-row .col2 {
+    font-size: 14px;
+  }
+
+  .more-off-on-albion {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .more-off-on-albion-sub-text {
+    font-size: 14px;
+    color: #666666;
+  }
+
+  .abt-albion {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .other-banks-title {
+    font-size: 16px;
+  }
+
+  .owner-details {
+    width: 100%;
+  }
+
+  .owner-details iframe {
+    display: none;
+  }
+}
+
+.home-loan-head {
+  font-size: 24px;
+}
+
+.no-property-images-found {
+  width: 95%;
+}
+
+.no-property-images-found img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-section {
+  height: 150px;
+  margin-top: 20px;
+}
+
+.map-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.forRentTag,
+.forSaleTag {
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forRentTag {
+  background-color: #d2b4de;
+  font-weight: 600;
+}
+
+.forSaleTag {
+  background-color: #abebc6;
+  font-weight: 600;
+}
+
+@media (max-width: 550px) {
+  .project-images-section {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .static-card {
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .coverImage {
+    width: 100%;
+    height: 75%;
+  }
+
+  .otherImages {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 20%;
+  }
+
+  .sub-image {
+    width: 60px;
+  }
+
+  .static-card {
+    box-sizing: border-box;
+    padding: 6px;
+  }
+
+  .prop-important-details {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .other-detail {
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .other-detail-title,
+  .other-detail-value {
+    font-size: 14px;
+  }
+
+  .product-details-page .features {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .property-detail {
+    gap: 14px;
+    box-sizing: border-box !important;
+    padding: 6px;
+  }
+
+  .abt-property-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .abt-property-row .col1,
+  .abt-property-row .col2 {
+    font-size: 14px !important;
+    width: 100%;
+  }
+
+  .home-loan-details .top-section {
+    width: 100% !important;
+  }
+
+  .more-off-on-albion, .more-off-on-albion-sub-text{
+    text-align: center  !important;
+  }
+
+  .abt-albion{
+    text-align: center !important;
+  }
+
+  .abt-albion > span {
+    text-align: justify;
+  }
+
+  .other-banks {
+   align-items: center !important;
+  }
+  
+
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+    transition-property: left;
+  }
+
+  100% {
+    left: 100%;
+    transition-property: left;
+  }
+}
+
+.copymobilenumber:hover,
+.copyemail:hover {
+  border-radius: 50px;
+  background-color: #8c193f !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.owner-details-mobile {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .owner-details {
+    display: none;
+  }
+  .owner-details-mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: px;
+  }
+
+  .owner-details-mobile .first-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .owner-details-mobile .second-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .owner-details-mobile .second-row .leftarea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .owner-details-mobile .second-row .leftarea .sr-sub {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .owner-details-mobile .second-row .leftarea .sr-sub .price {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .owner-details-mobile .second-row .leftarea .sr-sub .onwards-text {
+    font-size: 14px;
+  }
+
+  .owner-details-mobile .third-row {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .owner-details-mobile .third-row .user-sec .user-outline-details {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .owner-details-mobile .third-row .btn-for-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .owner-details-mobile .third-row .user-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .owner-details-mobile .third-row .user-sec span {
+    font-size: 14px;
+  }
+  .contactOwnerBtn-mobile,
+  .bookVisitBtn-mobile {
+    height: 30px;
+  }
+  .main-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.pg-rules-area,
+.food-provided {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.pg-rules-area .pg-rules-heading,
+.food-provided .food-provided-heading {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.pg-rules-area .rules-list {
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pg-food-list {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.pg-food-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .project-images-section {
+    height: 50vh !important;
+  }
+  .heading {
+    font-weight: 800;
+    font-size: 24px;
+    padding-left: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  .other-bank-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .amenities-section {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+@media (max-width: 550px) {
+  .heading {
+    display: grid;
+    place-items: center;
+  }
+  .product-details-page .features .single-features {
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+
+@media (min-width:550px) and (max-width:768px) {
+  .product-details-page .features {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 50px !important;
+    margin-top: 15px !important;
+  }
+  .product-details-page .features .single-features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px !important;
+  }
+  
+  .other-detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .other-detail-title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0a0a0a;
+    font-weight: 600;
+  }
+}
+
+.single-features > p > span{
+  color: #666666;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.securitydeposit{
+  font-weight: 600;
+  font-size: 18px
+}
+.priceperbed{
+  font-weight: 600;
+  font-size: 22px
+}
+
+.pg-category-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sharing-source-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.no-of-rooms-in-pg{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.no-of-rooms-in-pg-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.owner-flex-sb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.w-35-p{
+  width: 35%;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+
+.negotitation-title {
+  background: #006400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-container {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.exculsive-in-albion {
+  background: #8C193F;
+  color: #fff;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border: 1px solid #8C193f;
+}
+
+.flex-wrap-g10{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.features-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 10px;
+  gap: 5px;
+}
+
+.features-area > span{
+  font-size: 12px;
+}
+
+.features-area .flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.features-area .flex-col > span{
+  font-size: 14px; 
+}
+
+.property-description{
+  color: black;
+  font-weight: 600;
+  text-align: left
+}
+.rules-list .flex-fs-10 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-col-2px {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap-30{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap
+}
+
+.amenities-card .flex-col-5px {
+  display: flex;
+  flex-direction: column;
+  gap: 5px, ;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenities-card .flex-col-5px > span{
+  font-size: 14px
+}
+
+.pd-page-divider {
+  color: #CCCCCC;
+  border-color: #CCCCCC;
+  width: 80%
+}
+
+.pd-page-divider > span{
+  font-size: 12px;
+  color: #737373
+}
+
+.home-loan-calculator-container {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center
+}
+
+.property-price-negotiations {
+  background: #006400;
+  color: #fff
+}
+
+.myOwnProperty {
+  background-color: #D9FCB3;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media (max-width : 350px){
+  .owner-details-mobile .third-row .user-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+@media (max-width : 550px){
+  .product-details-page{
+    margin-bottom: 10%;
+  }
+}

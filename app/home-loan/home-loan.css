@@ -1,0 +1,497 @@
+.package-mover-page {
+    margin-top: 75px;
+}
+
+.check-eligibility {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 30%;
+}
+
+.checkPriceBtn {
+  border-radius: 4px;
+  background-color: #fff !important;
+  color: #8c193f !important;
+}
+
+.checkPriceBtn:hover {
+  color: #8c193f !important;
+  background-color: white !important;
+  border: 1px solid #8c193f !important;
+}
+
+.inputStyle {
+  border-radius: 4px !important;
+  width: 100% !important;
+}
+
+.home-loan-contentsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.home_loan__content {
+  width: 85%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.home_loan__content .headText {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.descText {
+  color: #737373;
+  text-align: left;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.howItWorks {
+  display: flex;
+  justify-content: center;
+}
+
+.howItWorks section {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.howItWorks section .headtext {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.howItWorks section .subText {
+  color: #737373;
+  font-size: 0.9rem;
+}
+
+.ant-steps-item-description {
+  width: 180px;
+  position: relative;
+  left: -30px;
+}
+
+.howItWorks .ant-steps-item-tail::after {
+  background-color: #cccccc !important;
+}
+
+.bank-partners {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.bank-partners .head-span {
+  font-size: 13px;
+  color: #737373;
+}
+.bank-partners .partner-table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.bank-partners .partner-table .ant-table-cell {
+  color: #000000 !important;
+}
+.loan-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.albion-advantage {
+  background-color: #fde8e9;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.albion-advantage .inner-section {
+  width: 80%;
+  padding: 20px;
+}
+
+.albion-adv-first {
+  display: flex;
+  align-items: center;
+}
+
+.albion-adv-container {
+  width: 50%;
+}
+
+.albion-adv-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.albion-adv-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* width: 65%; */
+  height: 100%;
+  gap: 30px;
+  padding: 20px;
+}
+
+.albion-adv-list .albionadvtext {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.adv-point {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+  width: 95%;
+}
+
+.adv-point span {
+  color: #737373;
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.alb-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loan-calc {
+  width: 80vw;
+}
+
+.home_loan__content .img-Container {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .home_loan__content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .albion-advantage .inner-section {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .albion-adv-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .albion-adv-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .albion-adv-container img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .albion-adv-list {
+    width: auto;
+  }
+  .alb-advantages {
+    width: 100%;
+  }
+  .home_loan__content .img-Container {
+    width: 90% !important;
+  }
+  .detail-content {
+      width: 90%;
+  }
+  .bank-partners {
+    margin-top: 30px;
+  }
+  .ant-steps-item-description {
+    width: 160px;
+    position: relative;
+    left: -30px;
+  }
+  .adv-point img{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home-loan-contentsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px !important;
+    margin-top: 20px;
+  }
+  .home_loan__content {
+    width: 100%;
+  }
+  .home_loan__content .img-Container {
+    width: 100%;
+  }
+
+  .home_loan__content .img-Container img {
+    object-fit: contain !important;
+    height: 100%;
+    width: 100%;
+  }
+  .bank-partners {
+    width: 100%;
+  }
+  .albion-advantage{
+    padding: 0px !important;
+  }
+  .albion-adv-container img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home_loan__content {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+.KnowMoreBtn {
+  background-color: #ffa825 !important;
+  color: white !important;
+  border: 1px solid transparent !important;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 4px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.KnowMoreBtn:hover {
+  color: #ffa825 !important;
+  border: 1px solid #ffa825 !important;
+  height: 40px;
+}
+
+.checkEligibilityText {
+  font-size: 22;
+  font-weight: 600;
+}
+@media (max-width: 550px) {
+  .package-mover-page {
+    /* margin-top: 100px; */
+    margin-top: 20px;
+  }
+  .check-eligibility {
+    width: 90%;
+  }
+  .static__banner {
+    height: 300px;
+  }
+  .checkEligibilityText {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px !important;
+  }
+  .detail-content {
+    padding: 0px;
+  }
+  .descText {
+    line-height: 25px;
+  }
+
+  .bank-partners {
+    margin-top: 3%;
+    padding: 20px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .loan-card {
+    padding: 20px;
+  }
+
+  .loan-card h1 {
+    font-size: 14px;
+  }
+  .head-span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .adv-point {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .adv-point span {
+    color: #737373;
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .adv-point img{
+    margin-top: 5px;
+  }
+}
+
+.banner-for-web {
+  display: block;
+}
+.banner-for-mobile {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .banner-for-web {
+    display: none;
+  }
+  .banner-for-mobile {
+    display: block;
+    justify-self: center;
+  }
+  .check-eligibility {
+    border: 1px solid #cccccc80;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px !important;
+    align-items: center !important;
+  }
+  .img-Container {
+    width: 90% !important;
+    margin-top: 20px;
+  }
+  .descText {
+    font-size: 1rem !important;
+    line-height: 28px;
+    text-align: justify;
+     /* padding: 5px 20px; */
+  }
+  .headtext,
+  .bank-partners section h1,
+  .loan-card section h1 {
+    font-size: 1.5rem !important;
+  }
+  .subText,
+  .head-span {
+    font-size: 1rem !important;
+    line-height: 28px;
+  }
+  .ant-steps-item-description {
+    padding-left: 50px;
+    width: 100%;
+    font-size: 1rem !important;
+  }
+  .home_loan__content .headText {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.howItWorks section .headtext {
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+}
+
+@media (max-width: 550px) {
+  .albion-adv-list {
+    width: 100% !important;
+    display: grid;
+    place-items: center;
+  }
+  .img-Container {
+    width: 90% !important;
+  }
+  .subText {
+    font-size: 1rem !important;
+    line-height: 28px;
+    text-align: justify;
+  }
+  .howItWorks section {
+    width: 90%;
+    padding: 0px;
+  }
+  .loan-card{
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .check-eligibility {
+    margin-top: -20px;
+  }
+}
+
+.topOtherBanks {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 20;
+}
+
+.topOtherBanks >span{
+  font-weight: 600;
+}
+
+.byContinuing{
+  text-align: left; 
+  font-weight: 400; 
+  font-size: 12
+}
+
+.albiontc{
+  color: #8C193F;
+  cursor: pointer
+}
+
+.howItWorksSteps {
+  margin-top: 30px;
+}
+.bank-table{
+  width: 100%; 
+  margin-top: 3%
+}
+
+.loan-process-icon {
+  color: #8C193F;
+  transform: scale(1.3);
+}

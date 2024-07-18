@@ -1,0 +1,568 @@
+.help_page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 75px;
+}
+
+.help_page-inner-section {
+    background-color: #F3E8EC;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.help_page-banner-content {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.help_page-lc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.help_page-lc .help-heading {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+
+.help_page-lc .help_desc {
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+}
+
+
+.help-page-rc {
+    width: 50%;
+    height: 100%;
+}
+
+.help-page-rc img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.help_page-lc .ant-input-affix-wrapper {
+    width: 90%;
+    height: 50px;
+}
+
+.help_page-lc .ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper:focus {
+    border-color: #8C193F !important;
+    cursor: pointer;
+}
+
+
+.help-page-second_row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.row_inner-section {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-page-second_row .albionSupportDetails {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.support__card {
+    border: 1px solid #cccccc;
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    margin-top: 3%;
+}
+
+.support_details-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.soc_i{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.soc_i img {
+    cursor: pointer;
+}
+
+
+.support-data {
+    color: #737373;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.help-page__third-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.help-info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.help-info .help-cards {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    align-items: center;
+}
+
+
+.help-info .help-cards .help-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+}
+
+.help-info .help-cards .help-content .st1 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+}
+
+.help-info .help-cards .help-content .st2 {
+    font-size: 32px;
+    color: #8C193F;
+    font-weight: 600;
+}
+
+
+.help-info .help-cards .help-content .st3 {
+    font-size: 16px;
+    color: #737373;
+    line-height: 30px;
+}
+
+
+.help-info .help-cards .help_image_container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.get-in-touch__form {
+    width: 35%;
+}
+
+.get-in-touch__form .form-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.help-form .ant-input {
+    border-radius: 4px !important;
+    height: 50px !important;
+}
+
+
+.ant-form-vertical .ant-form-item-label>label {
+    font-size: 16px !important;
+}
+
+.get-in-touch__form .ant-select-selector {
+    height: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch__form .ant-select-selector:hover,
+.help-form .ant-input:hover {
+    border: 1px solid #cccccc !important;
+    cursor: pointer !important;
+}
+
+
+.formSubmit {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #8C193F !important;
+    color: white !important;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.formSubmit:hover {
+    background-color: white !important;
+    border: 1px solid #8C193F !important;
+    color: #8C193F !important;
+}
+
+.faq-help__users {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.faq-help__users .text_head {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq-help__users .text_desc {
+    color: #737373 !important;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+
+.help-page-second_row {
+    margin-top: -8%;
+}
+
+.help-page__third-row,
+.faq-help__users {
+    margin-top: 4%;
+}
+
+
+@media (max-width : 550px) {
+    .help_page-inner-section {
+        height: auto;
+    }
+
+    .help_page-banner-content {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .help_page-lc {
+        width: 90%;
+        align-items: center;
+    }
+
+    .help-page-rc {
+        width: 70%;
+        height: 100%;
+    }
+
+    .help-page-second_row {
+        margin-top: 20px;
+    }
+
+    .row_inner-section {
+        flex-direction: column;
+        width: 90% !important;
+    }
+
+    .help-info {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .help-info .help-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .help-info .help-cards .help-content .st1 {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .help-info .help-cards .help-content .st2 {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .help-info .help-cards .help-content .st3 {
+        width: 80vw;
+        font-size: 12px;
+    }
+
+    .help-info .help-cards .help_image_container {
+        transform: scale(0.7)
+    }
+
+    .get-in-touch__form {
+        width: 100% !important;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .support_details-card {
+        gap: 15px !important;
+    }
+
+    .help-info .help-cards .help_image_container {
+        width: 100% !important;
+    }
+
+    .help-page__third-row {
+        margin-top: 60px;
+    }
+
+    .get-in-touch__form .form-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width : 1024px) {
+    .help_page-inner-section {
+        height: auto;
+    }
+
+    .help_page-banner-content {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .help_page-lc {
+        width: 90%;
+        align-items: center;
+    }
+
+    .help-page-rc {
+        width: 70%;
+        height: 100%;
+    }
+
+    .help-page-second_row {
+        margin-top: 20px;
+    }
+
+    .row_inner-section {
+        flex-direction: column;
+    }
+
+    .help-info {
+        width: 95%;
+    }
+
+    .help-info .help-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help-info .help-cards .help-content .st1 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .help-info .help-cards .help-content .st2 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .help-info .help-cards .help-content .st3 {
+        font-size: 14px;
+        width: 100% !important;
+    }
+
+    .get-in-touch__form {
+        width: 95%;
+    }
+
+    .help-info .help-cards .help-content {
+        width: 100%;
+    }
+
+    .help-page-rc img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width : 550px) {
+    .help_image_container img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .help-page-rc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .help-page-rc img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .help_page-lc .help-heading {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 36px;
+        margin-top: 15px;
+    }
+
+    .help_page {
+        top: 30px;
+    }
+
+    .support__card {
+        width: 100%;
+    }
+
+    .help-info {
+        width: 100%;
+    }
+
+    .help-info .help-cards .help-content {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .help-info .help-cards .help-content .st3 {
+        font-size: 14px;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .support-data {
+        color: #737373;
+        font-size: 14px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .row-inner-section-divs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center !important;
+    }
+
+    .faq-help__users .text_desc {
+        color: #737373 !important;
+        line-height: 26px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    .help-info .help-cards .help-content .st1 {
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+    }
+
+    .help-info .help-cards .help-content .st2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .help-info .help-cards .help-content .st2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .help_image_container {
+        height: 100% !important;
+        width: 100% !important;
+        display: grid !important;
+        place-items: center;
+    }
+
+    .get-in-touch__form {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .help-page-rc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .help_page-lc .help-heading {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    .row-inner-section-divs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-help__users .text_head {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .faq-help__users .text_desc {
+        text-align: justify;
+    }
+
+    .help-info .help-cards .help-content {
+        gap: 10px;
+    }
+
+    .help-info .help-cards .help-content .st3 {
+        text-align: center;
+    }
+}
+
+.support_details-card>strong {
+    font-size: 16px
+}

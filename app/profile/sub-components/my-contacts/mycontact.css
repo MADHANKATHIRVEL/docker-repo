@@ -1,0 +1,13 @@
+.my-contact{
+    width: 90vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+
+@media (max-width:550px) {
+    .my-contact{
+        width: auto !important;
+    }
+}

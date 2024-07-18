@@ -1,0 +1,74 @@
+.dp-inner-area {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    height: 120px;
+    margin-top: 30px;
+
+    h3 {
+        color: #8c193f;
+
+        span {
+            color: #333;
+            font-weight: 400;
+        }
+    }
+
+    .properties-quick-links {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+
+        .bhk-quick-link-card {
+            flex: 1;
+            border-radius: 6px;
+            box-sizing: border-box;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
+
+            &>div h2 {
+                font-size: 18px;
+                color: #333;
+                font-weight: 600;
+            }
+
+            &>div h5 {
+                font-size: 14px;
+                color: #737373;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media (max-width : 800px) {
+    .properties-quick-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width : 550px){
+    .dp-inner-area{
+        height: 280px;
+        max-height: fit-content;
+    }
+    .dp-inner-area h3{
+        font-size: 18px;
+    }
+    .dp-inner-area .properties-quick-links .bhk-quick-link-card{
+        padding: 10px;
+    }
+    .dp-inner-area .properties-quick-links .bhk-quick-link-card > div h2{
+        font-size: 14px;
+    }
+}

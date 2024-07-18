@@ -1,0 +1,605 @@
+.package-mover-page {
+    margin-top : 80px;
+    height: auto;
+}
+
+.package-mover-banner {
+  width: 100%;
+  height: 450px;
+  background-image: url("../../assets/packagemovers.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-check {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+}
+
+.checkPriceBtn {
+  border-radius: 4px;
+  background-color: #8c193f;
+}
+
+.checkPriceBtn:hover {
+  color: #8c193f !important;
+  background-color: white !important;
+  border: 1px solid #8c193f !important;
+}
+
+.ourServices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 10px;
+}
+
+.ourservice-sub {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.headTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.bookNowBtn {
+  border: none !important;
+  color: #8c193f !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ourServicesCol {
+  width: 50%;
+  position: relative;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.servicedesc {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  bottom: -60px;
+  border: 1px solid #cccccc;
+}
+
+.serviceHead {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.find_the_best_sec {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  height: 530px;
+}
+
+.find_the_best_sec .content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 8px;
+}
+
+.find_the_best_sec .content-area .findthebest {
+  color: #8c193f;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.packagemovertitle {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 65%;
+}
+
+.content-area {
+  width: 50%;
+}
+
+.image-area {
+  width: 50%;
+}
+
+.menpackageimagecontainer {
+  height: 100%;
+  width: 100%;
+}
+
+.menpackageimage {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.packagemoverBtns {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.packagemoverdesc {
+  line-height: 28px;
+  color: #737373;
+}
+
+.booknowBtn {
+  background-color: #8c193f !important;
+  color: white !important;
+  border: none;
+  border-radius: 4px !important;
+  width: 180px;
+  height: 40px;
+}
+
+.contactagentBtn {
+  border: 1px solid #8c193f !important;
+  background-color: white !important;
+  color: #8c193f !important;
+  font-weight: 600;
+  height: 40px;
+  width: 180px;
+}
+
+.contactagentBtn a {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contactagentBtn .phone-outlined {
+  transform: rotate(108deg);
+}
+
+.whychooseus {
+  width: 100%;
+  margin-top: 3%;
+  background-color: #fde8e9c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whychooseus_sec {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.packagingman-imageContainer {
+  width: 50%;
+}
+
+.packaginman {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.whychooseus-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    gap: 20px;
+  padding: 10px;
+}
+
+.whychooseus-content .title {
+  color: #8c193f;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 35px;
+  text-align: center;
+}
+
+.whyuscard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 2.5%;
+  gap: 15px;
+  border-radius: 4px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.whychooseus-content .sm-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.whyuscard .whyuscardtext {
+  width: 90% !important;
+  height: 80% !important;
+  text-align: left;
+}
+
+.whyuscardtext .card-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.whyuscardtext .card-desc {
+  font-size: 14px;
+  color: #737373;
+}
+
+.imgCont {
+  width: 30%;
+}
+
+.imgCont img {
+  height: 100px;
+}
+
+.service-image-container {
+  width: 100%;
+  height: 50%;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.findthebest-sub {
+  display: flex;
+  width: 70%;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+@media (max-width: 1440px) {
+  .servicedesc {
+    position: relative;
+    top: 0px;
+    gap: 10px;
+  }
+}
+
+.radio-groups {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+@media (max-width: 550px) {
+  .find_the_best_sec {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 5%;
+  }
+
+  .find_the_best_sec .content-area {
+    align-items: center;
+    width: 100% !important;
+    padding: 5px;
+  }
+
+  .findthebest-sub {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image-area {
+    width: 100%;
+  }
+
+  .whychooseus_sec {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .whychooseus-content {
+    width: 100%;
+  }
+
+  .imgCont img {
+    height: 40px;
+  }
+
+  .package-mover-page {
+    margin-top: 30px;
+  }
+
+  .static__banner {
+    height: auto;
+  }
+
+  .price-check {
+    padding: 10px;
+    gap: 15px;
+    width: 90%;
+  }
+
+  .headTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ourservice-sub p {
+    font-size: 12px;
+  }
+
+  .service-content {
+    /* width: 80vw !important; */
+    width: 100% !important;
+  }
+
+  .find_the_best_sec .content-area .findthebest {
+    color: #8c193f;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .packagemovertitle {
+    font-weight: 700;
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .packagemoverdesc {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .booknowBtn,
+  .contactagentBtn {
+    transform: scale(0.9);
+  }
+
+  .whychooseus-content .title {
+    color: #8c193f;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .extra-service-item .description {
+    text-align: center;
+  }
+
+  .packaginman {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .packagingman-imageContainer {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .menpackageimage {
+    width: 100%;
+  }
+
+  .ourservice-sub {
+    width: 100%;
+  }
+
+  .frequent-sections-sub {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .find_the_best_sec {
+    width: 80%;
+    height: auto;
+  }
+  .findthebest-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .content-area {
+    width: 100%;
+  }
+  .packagemoverBtns {
+    width: 50%;
+  }
+  .whychooseus_sec {
+    flex-direction: column;
+  }
+  .whychooseus-content {
+    width: 95%;
+  }
+  .package-mover-page .extra-service-item {
+    width: 100% !important;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid rgb(128, 0, 85); */
+  }
+}
+
+.form {
+  display: block;
+}
+.mobile-form {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .form {
+    display: none;
+  }
+  .package-mover-page .extra-service-item {
+    width: 95% !important;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    /* border: 1px solid green; */
+  }
+  .mobile-form {
+    display: block;
+    margin-top: 25%;
+  }
+  .mobile-form img {
+    display: flex;
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .mobile-form-pm {
+    border: 1px solid #cccccc80;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-top: 5%;
+    border-radius: 4px;
+  }
+  .whyuscard {
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .imgCont img {
+    width: 100%;
+    height: 100%;
+  }
+  .whyuscardtext {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .headTitle {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .ourservice-sub p,
+  .servicedesc p {
+    font-size: 14px !important;
+    line-height: 25px;
+    text-align: center;
+  }
+  .findthebest {
+    font-size: 24px !important;
+  }
+  .packagemovertitle {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .packagemoverdesc {
+    font-size: 14px !important;
+    line-height: 30px;
+    padding: 0px 10px !important;
+    text-align: center;
+  }
+  .booknowBtn,
+  .contactagentBtn {
+    width: 50%;
+  }
+  .packagemoverBtns {
+    width: 100%;
+  }
+  .whychooseus-content .title {
+    font-size: 24px !important;
+    text-align: center;
+  }
+  .whyuscardtext .card-title {
+    font-size: 16px !important;
+  }
+  .whyuscardtext .card-desc {
+    font-size: 14px !important;
+  }
+  .ourservice-sub {
+    margin-top: 10% !important;
+  }
+
+  .service-image-container {
+    width: 100%;
+  }
+  .servicedesc {
+    margin-top: 5%;
+  }
+  .bookNowBtn {
+    background-color: #8c193f !important;
+    color: white !important;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .serviceHead {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .radio-groups,
+  .ourServicesCol,
+  .servicedesc {
+    width: 100%;
+  }
+}
+
+.ant-radio-checked .ant-radio-inner {
+  background-color: #8c193f !important;
+  border: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .find_the_best_sec {
+    width: 95% !important;
+  }
+}
+
+
+.our__services-row{
+  margin-left:0px;
+  margin-right:0px
+}

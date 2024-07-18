@@ -1,0 +1,463 @@
+.plan-page {
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: url('../../assets/plan-background.webp');
+  margin-bottom: 10%;
+}
+
+.plan-grid {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  gap: 5px;
+  /* height: 95vh; */
+  background: #33333390;
+  backdrop-filter: blur(2px);
+  box-sizing: border-box;
+  padding: 50px;
+  margin-bottom: 5%;
+}
+
+.plan-grid .payment-main-card {
+  width: 90%;
+  border-radius: 4px;
+  background-color: #19212990;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.plan-grid .payment-main-card .chooseplantitle {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.payment-pricing-cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.plan-table {
+  border-radius: 4px;
+  width: 90%;
+  display: flex;
+  /* gap: 10px; */
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.plan-table .left-col {
+  width: 40%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* padding-top: 15px; */
+}
+
+.plan-card-col span {
+  /* border-bottom: 1px solid; */
+  width: 100% !important;
+}
+
+.plan-table .left-col h3 {
+  margin-bottom: 12%;
+}
+
+.plan-table .left-col span {
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  /* border-bottom: 1px solid #fff; */
+}
+
+.plan-table .right-col {
+  /* width: 60%; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-table .right-col .plan-detail-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  /* background-color: #fff; */
+  color: #fff;
+  border-radius: 4px 4px 0px 0px;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 15px; */
+}
+
+.plan-org-price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.plan-price-fixed {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.plan-table .right-col .plan-detail-card .price-detail-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #8c193f;
+  justify-content: center;
+}
+
+.plan-table .right-col .plan-detail-card .price-detail-area .price-title {
+}
+
+.plan-table .right-col .plan-detail-card .price-detail-area .origin-price {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.plan-table .right-col .plan-detail-card .price-detail-area .plan-price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right-payment-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+.continueToPay {
+  width: fit-content;
+  height: 40px;
+  background-color: #8c193f;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.continueToPay:hover {
+  width: fit-content;
+  height: 40px;
+  background-color: #8c193f !important;
+  color: #fff !important;
+  border: 1px solid #8c193f !important;
+}
+
+.payment-card-table {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ant-table-thead {
+  background: transparent !important;
+}
+.payment-card-table .ant-table {
+  background: transparent;
+}
+
+.payment-pricing-cards .ant-table-thead tr th,
+.payment-pricing-cards .ant-table-tbody tr td {
+  text-align: center;
+  border: none !important;
+  font-size: 16px;
+}
+
+.plan-page .ant-table-tbody {
+  color: #fff;
+}
+
+.ant-table-tbody tr:hover {
+  /* background: transparent !important; */
+}
+
+.ant-table-cell-row-hover {
+  /* background: transparent !important; */
+}
+
+.plan-page .ant-table-cell {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 16px 0px !important;
+}
+
+.plan-page .ant-table-cell::before {
+  background-color: transparent !important;
+}
+
+.select-plan-area {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.final-paymen-card {
+  width: 100%;
+  border-radius: 4px;
+  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+  justify-content: center;
+  background: #33333340;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.final-paymen-card-active {
+  width: 100%;
+  border-radius: 4px;
+  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+  justify-content: center;
+  background: #fff;
+  color: #333;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-tag {
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 600;
+}
+.plan-page .ant-table-row-level-0:nth-child(even) {
+  background: #ffffff30;
+}
+.responsive-plan-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 15px 70px 15px;
+}
+.responsive-back-arrow-icon {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.responsive-plan-title-container {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.responsive-plan-title {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.responsive-plan-title span {
+  color: #ffc72c;
+  margin: 3px;
+}
+.responsive-plan-title img {
+  object-fit: cover;
+}
+.responsive-plan-desc-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.responsive-plan-list {
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.responsive-plan-list div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  text-align: initial;
+  font-size: 10px;
+}
+.checkedIcon {
+  color: green;
+  font-size: 1.5em;
+  margin-right: 2px;
+}
+.responsive-plan-foot-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.responsive-plan-purchase-btn {
+  border: 1px solid;
+  display: flex;
+  height: 40px;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 4px;
+  background-color: #8c193f !important;
+  color: white !important;
+  position: fixed;
+  bottom: 10%;
+}
+
+.responsive-plan-purchase-btn:hover {
+  border: 1px solid transparent !important;
+}
+
+.responsive-plans-card-list {
+  height: 95px;
+  width: -webkit-fill-available;
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition: height 0s ease-in-out;
+  overflow: hidden;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.responsive-plans-card-list div {
+  display: flex;
+  justify-content: space-between;
+}
+.plans-card-list-selected {
+  height: 100%;
+  background-color: #008a8a !important;
+  color: white !important;
+}
+.plan-features-card-list {
+  display: flex;
+  margin-top: 5px;
+  background-color: #ecf6f7;
+  color: #333;
+  padding: 10px;
+  font-size: 13px;
+}
+.plan-features-card-list div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.plan-features-card-list div > span {
+  text-align: start;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 10px;
+}
+.card-container div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+.card-container div > p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px;
+}
+.card-container div > span {
+  color: #fff;
+  border: 1px solid #ffa825;
+  background: #ffa825;
+  border-radius: 40px;
+  padding: 5px 15px;
+  font-size: 7px;
+}
+.card-container-amount {
+  font-size: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container-amount span {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+}
+.scroll-to-top-outline {
+  display: none;
+}
+@media (min-width: 800px) {
+
+  .responsive-plan-container {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .plan-grid {
+    display: none;
+  }
+  .plan-page {
+    background: #fff !important;
+    min-height: auto !important;
+  }
+}
+
+.coupon-and-apply-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.plan-price-with-tax {
+  sup {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+.breakup-modal {
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.breakup-modal .proceedToPayment {
+  margin-left: auto;
+}
+
+
+.check-filled{
+  color: Green; 
+  font-size: 1.2em;
+}
+.close-filled{
+  color: Red; 
+  font-size: "1.2em"
+}
+
+@media (max-width : 550px){
+  .breakup-modal {
+    padding: 0px !important;
+  }
+}

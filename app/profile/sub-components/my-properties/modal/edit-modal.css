@@ -1,0 +1,63 @@
+.property-features{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.prop-feature-second-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.floor-no-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inc-dec-input{
+    display: flex;
+    gap: 5px;
+}
+
+.edit-col{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.flex-column-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.width-80px{
+    width: 80px !important;
+}
+
+.optional-text{
+    font-size: 12px;
+}
+
+.w-150 {
+    width: 150px
+}
+.w-140{
+    width: 140px;
+}
+.w-120{
+    width: 120px
+}
+.edit-property {
+    font-size: 18;
+    font-weight: 600;
+}
+
+.flex-col-20 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,120 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+    width: 85%;
+    height: auto;
+    align-items: start;
+    margin-top: 2%;
+}
+
+.about-section .about-grid .itemDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    width: 90% !important;
+}
+
+.about-section .about-grid .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.about-section .about-grid .description {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+}
+
+
+@media (max-width : 1024px) {
+    .about-section .about-grid {
+        width: 85%;
+    }
+}
+
+
+@media (max-width : 550px) {
+    .about-section {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .foot__logo {
+        width: 50% !important;
+    }
+
+    .about-section .about-grid {
+        grid-template-columns: repeat(1, auto);
+        width: 100%;
+    }
+
+    .about-section {
+        justify-content: center;
+        padding: 0px;
+        margin-top: 20px !important;
+    }
+
+
+}
+
+@media (max-width : 780px) {
+    .about-section .about-grid {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .foot__logo {
+        width: 30%;
+    }
+}
+
+@media(max-width : 550px) {
+
+    .itemDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-section .about-grid .itemDiv {
+        width: 100% !important;
+    }
+
+    .about-section .about-grid .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-section .about-grid .description {
+        font-size: 14px;
+        text-align: justify !important;
+    }
+
+    .prop-services {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .prop-link {
+        font-size: 14px !important;
+        gap: 10px;
+    }
+}
+
+@media (max-width : 550px) {
+    .about-grid .itemDiv .description {
+        line-height: 25px;
+    }
+}

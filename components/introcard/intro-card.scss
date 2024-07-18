@@ -1,0 +1,17 @@
+.location-dropdown-styled{
+    min-width: 280px !important;
+    border: none !important;
+}
+
+@media (max-width : 550px){
+    .location-dropdown-styled{
+        min-width: auto !important;
+        width: 100% !important;
+    }
+    .mobilefiltercard {
+        .ant-select-selection-placeholder,
+        .ant-select-arrow{
+            color: #737373 !important;
+        }
+    }
+}

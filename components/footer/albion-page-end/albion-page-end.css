@@ -1,0 +1,283 @@
+.albion-page-end_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px;
+}
+
+
+.prop-link {
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.prop-link:hover{
+    font-weight: 600;
+    color: #333;
+    transform: scale(1.50);
+}
+
+.prop-links,
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.other-services {
+    background: #EAEAEA;
+    color: #666666;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-services .services {
+    width: 85%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;    
+}
+
+.other-services .services .service {
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform ease-in-out .3s;
+    text-decoration: none;
+    color: #333;
+}
+
+.other-services .services .service:hover{
+    font-weight: 600;
+    transform: scale(1.095);
+}
+
+.copyrights {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrights .copyrightsText {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.copyrights .copyrightsText .leftside {
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.social-links-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-links-flex img {
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: transform ease-in-out .3s;
+}
+
+.social-links-flex img:hover {
+    border-radius: 100px;
+    transform: scale(1);
+    z-index: 1;
+}
+
+@media (max-width : 1024px) {
+    .service {
+        font-size: 12px;
+    }
+
+    .leftside,
+    .rightside {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width : 550px){
+    .other-services .services .service {
+        cursor: pointer;
+        font-size: 14px;
+        transition: transform ease-in-out .3s;
+        width: 100%;
+    }
+    .copyrights .copyrightsText .leftside {
+        font-size: 14px;
+    }
+    .other-services{
+        height: auto !important;
+    }
+    .other-services .services{
+        height: auto;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 10px;
+       align-items: center;
+       box-sizing: border-box;
+       padding: 5px;
+       margin: 10px 0px !important;
+    }
+  
+}
+
+.links-for-seo{
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 12px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.links-for-seo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.links-for-seo a:hover{
+    color: #ffffff90;
+}
+
+
+.end-section-first-row{
+    border: 1px solid;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.end-section-first-row .end-section-inner-area{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+}
+
+.end-section-first-row .end-section-inner-area .imagearea{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.end-section-first-row .end-section-inner-area .appdownloadlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.end-section-first-row .end-section-inner-area .appdownloadlinks h4{
+    color: #fff !important;
+}
+
+
+@media (max-width : 550px){
+    .copyrights{
+        height: auto !important;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+}
+
+@media (max-width : 550px) {
+    .social-links{
+        gap: 10px !important;
+        align-items: center;
+        margin-top: 20px
+    }
+    .social-links h4{
+        line-height: 10px;
+    }
+    .prop-links img{
+       width: 85% !important;
+    }
+}
+
+@media (max-width : 800px){
+    .other-services .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width : 650px){
+    .albion-page-end_section{
+        margin-top: 20px;
+    }
+    .end-section-first-row .end-section-inner-area{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .end-section-first-row .end-section-inner-area .appdownloadlinks > div{
+        display: flex;
+    }
+}
+
+.albion-page-end_section .disclaimer{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #737373;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.albion-page-end_section .disclaimer p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.albion-page-end_section .social-icons-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    width: 40%;
+}
+
+.albion-page-end_section .social-icons-links a{
+    display: flex;
+    align-items: center;
+}

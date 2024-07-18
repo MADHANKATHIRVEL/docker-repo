@@ -1,0 +1,67 @@
+.buttons{
+    background-color: #8C193F !important;
+    color: white !important;
+    background-color: #8C193F !important;
+}
+
+.buttons:hover{
+    background-color: white !important;
+    color: #8C193F !important;
+    border: 1px solid #8C193F !important;
+}
+
+
+.selectedInterestBtn,
+.NotInterestBtn{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectedInterestBtn{
+    background-color: #8C193F !important;
+    color: white !important;
+}
+
+.NotInterestBtn:hover{
+    border: 1px solid #8C193F !important;
+    color: #8C193F !important;
+}
+.selectedInterestBtn:hover{
+    border: 1px solid #8C193F !important;
+}
+
+
+.price-input::placeholder{
+    color: #cccccc !important;
+}
+.price-input {
+    width: 200px !important;
+    color: black !important;
+    cursor: pointer !important;
+}
+
+
+.quick-filter-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quick-filter-modal > h3 > span{
+    color: #8C193F;
+}
+
+.quick-filter-modal .select-property-action {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly
+}
+
+.quick-filter-modal .filter-location-selector {
+    width: 200px !important;
+    color: black !important;
+    cursor: pointer !important
+}

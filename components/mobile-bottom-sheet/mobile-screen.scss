@@ -1,0 +1,57 @@
+.mobile-screen-bottom-sheet {
+    display: none !important;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    border-top: 1px solid #cccccc50;
+    z-index: 999;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+
+    .mobile-screen-bottom-sheet-inner {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+
+        .mobile-option-card {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: center;
+            justify-content: center;
+            width: 18%;
+            box-sizing: border-box;
+            padding: 5px;
+
+            p {
+                font-size: 12px;
+            }
+
+            svg{
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        .activemenu {
+            p {
+                font-size: 12px;
+                color: #8c193f;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width : 550px) {
+    .mobile-screen-bottom-sheet {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}

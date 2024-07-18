@@ -1,0 +1,45 @@
+.property-quick-links-area {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .swiper-button-prev-footer-links,
+    .swiper-button-next-footer-links {
+        position: absolute;
+        transform: scale(1.3) !important;
+        cursor: pointer;
+        z-index: 10;
+        background: #fff;
+        border-radius: 50px;
+    }
+
+    .swiper-button-prev-footer-links {
+        left: -3%;
+        top: 40%;
+    }
+
+    .swiper-button-next-footer-links {
+        right: -3%;
+        top: 40%;
+        transform: scale(1.3) rotate(180deg) !important;
+    }
+}
+
+@media (max-width : 550px){
+    .property-quick-links-area{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+.property-action-select{
+    .ant-select-selector{
+        border: 1px solid #8c193f !important;
+        color: #8c193f !important;
+    }
+    .ant-select-arrow{
+        color: #8c193f;
+    }
+}

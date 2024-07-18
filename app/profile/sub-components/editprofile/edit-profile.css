@@ -1,0 +1,208 @@
+.edit-profile {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.edit-profile_inner-section {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-image-section {
+  width: 20%;
+}
+
+.profile-input-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-profile-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.edit-profile-inputs .inputComponent {
+  border-radius: 4px;
+  width: 250px;
+}
+
+.updateProfileBtn {
+  color: white !important;
+  background-color: #8c193f !important;
+  border: none !important;
+  height: 40px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateProfileBtn:hover {
+  color: #8c193f !important;
+  background-color: white !important;
+  border: 1px solid #8c193f !important;
+  border-radius: 4px !important;
+  height: 40px;
+  width: 140px;
+}
+
+.select_persona .ant-select-selector {
+  border-radius: 4px !important;
+  width: 250px !important;
+}
+
+@media (max-width: 550px) {
+  .edit-profile {
+    margin-top: 20px;
+    width: 100% !important;
+  }
+
+  .profile-image-section {
+    width: 40% !important;
+  }
+
+  .edit-profile-inputs {
+    width: 100% !important;
+  }
+}
+
+.changeDataModal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+
+.changeDataModal .ant-input {
+  border-radius: 4px !important;
+}
+
+.changeDataModal .ant-input:hover {
+  border: 1px solid #cccccc !important;
+}
+
+.changeDataModal .getOtpBtn,
+.changeDataModal .final-step .validateOtp {
+  width: 120px;
+  background-color: #8c193f !important;
+  color: white !important;
+}
+
+.changeDataModal .final-step {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.changeDataModal .final-step .updateInput,
+.changeDataModal .final-step .updateInput:hover {
+  background-color: #cccccc !important;
+  color: #333 !important;
+  border: 1px solid #333;
+  border-radius: 4px !important;
+}
+
+.changeDataModal .getOtpBtn:hover,
+.changeDataModal .final-step .validateOtp:hover {
+  background-color: white !important;
+  color: #8c193f !important;
+  border: 1px solid #8c193f !important;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: 1px solid #cccccc;
+}
+
+@media (max-width: 550px) {
+  .edit-profile {
+    flex-direction: inherit;
+  }
+
+  .edit-profile_inner-section {
+    flex-direction: column;
+  }
+
+  .edit-profile_inner-section {
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 10px 30px;
+  }
+
+  .profile-image-section {
+    padding-left: 30% !important;
+    display: grid;
+    place-items: center !important;
+  }
+
+  .profile-input-section {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edit-profile-inputs .inputComponent {
+    border-radius: 4px;
+    width: 300px;
+  }
+
+  .select_persona .ant-select-selector {
+    border-radius: 4px !important;
+    width: 300px !important;
+  }
+
+}
+
+@media (max-width: 340px) {
+  .edit-profile_inner-section {
+    padding-left: 10px;
+  }
+
+  .edit-profile-inputs .inputComponent {
+    border-radius: 4px;
+    width: 250px;
+  }
+}
+
+
+
+.info-icon {
+  color: #737373;
+  transform: scale(0.9);
+}
+
+.address-textarea {
+  resize: none;
+  border-radius: 0px;
+  width: 100%
+}
+
+.account-type-container {
+  display: flex;
+  gap: 5px;
+  align-items: center
+}
+
+.edit-profile-inputs .inputComponent{
+  pointer-events: none !important;
+}
+
+.edit-profile-inputs .d-flex-g-5{
+  display: flex;
+  gap: 5px;
+}

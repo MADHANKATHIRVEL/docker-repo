@@ -1,0 +1,644 @@
+.landscape-property-card {
+    width: 100%;
+    height: 220px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.landscape-property-card .image-section {
+    height: 90%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+}
+
+.landscape-property-card .image-section,
+.landscape-property-card .description-section,
+.landscape-property-card .feature-section {
+    padding: 5px;
+}
+
+.landscape-property-card .description-section {
+    height: 90%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.landscape-property-card .description-section .property_title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.landscape-property-card .description-section .property_location {
+    font-size: 14px;
+    color: #666666;
+}
+
+.landscape-property-card .description-section .about-property {
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2px;
+    gap: 20px;
+}
+
+.landscape-property-card .description-section .about-property .icon-sec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9);
+    text-align: center;
+}
+
+.landscape-property-card .description-section .about-property span {
+    font-size: 0.8vw;
+}
+
+.landscape-property-card .description-section .about-property img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+.landscape-property-card .description-section .nearby-amenities {
+    font-size: 13px;
+    text-align: left;
+}
+
+.landscape-property-card .description-section .nearby-amenities a {
+    color: #8C193F;
+    cursor: pointer;
+}
+
+.landscape-property-card .feature-section {
+    height: 90%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.landscape-property-card .feature-section .head {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.landscape-property-card .feature-section .head .totalcost {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.landscape-property-card .feature-section .head .breakUp {
+    font-size: 14px;
+    color: #666666;
+}
+
+.landscape-property-card .feature-section .foot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.landscape-property-card .feature-section .foot .contactOwnerBtn1 {
+    background-color: #FFA825;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.landscape-property-card .feature-section .foot .contactOwnerBtn1 .contactIcon {
+    transform: rotate(90deg);
+}
+
+.landscape-property-card .feature-section .foot .contactOwnerBtn1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #FFA825;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+}
+
+.landscape-property-card .feature-section .foot .calculateEmiBtn {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.landscape-property-card .feature-section .foot .calculateEmiBtn:hover {
+    border: 1px solid black;
+    color: black;
+    font-weight: 600;
+}
+
+.landscape-property-card .image-section .card_image {
+    width: 95%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+
+.landscape-property-card .image-section .shortCutIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 20%;
+    transform: scale(1.0);
+    background-color: #cccccc49;
+    gap: 5px;
+}
+
+.landscape-property-card .image-section .shortCutIcons img {
+    cursor: pointer;
+}
+
+.heartIconPropertyList {
+    transform: scale(1);
+}
+
+.heartIconPropertyList .filled{
+    color: #8C193F;
+}
+
+@media (max-width : 1400px) {
+    .landscape-property-card .image-section .shortCutIcons {
+        transform: scale(0.8);
+    }
+
+    .landscape-property-card .description-section .property_title {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .landscape-property-card .description-section .property_location {
+        font-size: 14px;
+        color: #666666;
+    }
+
+    .landscape-property-card .description-section .about-property .icon-sec {
+        width: 25%;
+        transform: scale(0.7);
+    }
+
+    .landscape-property-card .feature-section {
+        height: 90%;
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .landscape-property-card .feature-section .head {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .landscape-property-card .feature-section .head .totalcost {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .landscape-property-card .feature-section .head .breakUp {
+        font-size: 10px;
+        color: #666666;
+    }
+
+    .landscape-property-card .feature-section .foot {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .landscape-property-card .feature-section .foot .contactOwnerBtn1 {
+        background-color: #FFA825;
+        font-weight: 600;
+        font-size: 14px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landscape-property-card .feature-section .foot .contactOwnerBtn1:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid #FFA825;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .landscape-property-card .feature-section .foot .calculateEmiBtn {
+        color: #666666;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .landscape-property-card .feature-section .foot .calculateEmiBtn:hover {
+        border: 1px solid black;
+        width: 90%;
+    }
+}
+
+@media (max-width : 550px) {
+    .landscape-property-card {
+        display: none !important;
+    }
+
+    .mobile_screen_propertyCard {
+        width: 100%;
+        aspect-ratio: 2 / 1;
+        border-radius: 4px;
+        border: 1px solid #CCCCCC;
+        display: flex !important;
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-top: 25px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        margin : 0 auto;
+        width : 100vw;
+    }
+
+    .mobile-sc-pc-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .shortCutIcons{
+        display: flex;
+        gap: 10px;
+    }
+
+    .mobile-card-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr
+    }
+
+    .mobile_screen_propertyCard .about-property {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-gap: 5px;
+    }
+
+    .mobile_screen_propertyCard .image-section {
+        width: 100%;
+        /* height: 40% !important; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .card_image{
+        border-radius: 0px 0px 10px 0px
+    }
+
+    .mobile_screen_propertyCard .image-section .card_image {
+        width: 100%;
+        object-fit: cover !important;
+    }
+
+    .mobile_screen_propertyCard .image-section{
+        height: 100%;
+    }
+
+    .mobile_screen_propertyCard .image-section,
+    .mobile_screen_propertyCard .description-section,
+    .mobile_screen_propertyCard .feature-section {
+        padding: 0px;
+    }
+
+    .mobile_screen_propertyCard .image-section .shortCutIcons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20%;
+        width: 90%;
+        box-sizing: border-box;
+        padding: 3px;
+    }
+
+    .mobile_screen_propertyCard .property__card_content {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px;
+        align-items: flex-start;
+        border-top: 1px solid #cccccc90;
+        gap: 10px;
+    }
+
+    .mobile_screen_propertyCard .property__card_content .property_title {
+        font-weight: 600;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mobile_screen_propertyCard .property__card_content .property_location {
+        font-size: 14px !important;
+    }
+
+    .mobile_screen_propertyCard .property__card_content .property-tag {
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .mobile_screen_propertyCard .description-section {
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .mobile_screen_propertyCard .head {
+        display: flex;
+        align-items: center;
+        gap: 10px !important;
+    }
+
+    .mobile_screen_propertyCard .totalcost {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .exclusive-tag {
+        position: absolute;
+    }
+
+    .mobile_screen_propertyCard .about-property .icon-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile_screen_propertyCard .icon-val {
+        font-size: 10px !important;
+        color: #737373;
+        text-align: center;
+    }
+
+    .mobile_screen_propertyCard .feature-section {
+        height: 100%;
+        width: 25%;
+    }
+
+    .mobile_screen_propertyCard .foot {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        transform: scale(1);
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .mobile_screen_propertyCard .contactOwnerBtn1 {
+        background-color: #8C193F !important;
+        color: white !important;
+        border-radius: 4px !important;
+        height: 30px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile_screen_propertyCard .calculateEmiBtn {
+        background-color: #FFA825 !important;
+        width: 45% !important;
+        color: #000 !important;
+        border-radius: 4px !important;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        text-decoration: none !important;
+        justify-content: center;
+    }
+
+    .mobile_screen_propertyCard .contactOwnerBtn1:hover {
+        background-color: white !important;
+        color: #8C193F !important;
+    }
+
+    .mobile_screen_propertyCard .calculateEmiBtn:hover {
+        background-color: #000 !important;
+        color: #FFA825 !important;
+    }
+
+}
+
+.mobile_screen_propertyCard {
+    display: none;
+}
+
+
+@media (min-width:550px) and (max-width:768px) {
+    .landscape-property-card .description-section .about-property img {
+        width: 30px !important;
+        height: 30px !important;
+        object-fit: contain;
+    }
+
+    .landscape-property-card .description-section .about-property .icon-sec {
+        transform: none !important;
+    }
+}
+
+
+
+
+@media (max-width : 850px) {
+    .foot {
+        transform: scale(0.8);
+    }
+}
+
+
+.exclusive-tag {
+    background-color: #8C193F !important;
+    color: white !important;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border: 1px solid #8C193F !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@media (max-width : 1100px) {
+    .landscape-property-card .feature-section .foot .calculateEmiBtn {
+        width: 100%;
+    }
+
+    .landscape-property-card .feature-section .foot .contactOwnerBtn1 {
+        width: 100%;
+    }
+}
+
+
+.shortcut-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    right: 20px;
+}
+
+
+
+.para-amendies {
+    content: "";
+    width: 11px;
+    height: 11px;
+    border: 1px solid #009681;
+    background-color: #e0f2f0;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border-radius: 100%;
+    box-sizing: content-box;
+}
+
+.room-category-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.room-category-container .room-category-icon-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.landscape-card-img-section{
+    height: 100%;
+    width: 100%;
+}
+
+.lp-social-media-icon{
+    margin-right: 10px
+}
+
+._fbicon{
+    margin-right: 10px;
+}
+
+.cardloader-component{
+    margin: 0 auto;
+}
+
+.contact-seller-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.read-less-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:30px;
+}
+
+.read-less-container .read-less-btn {
+    font-size: 12px;
+    width: 30%;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(140, 25, 63);
+    align-items: center;
+    gap: 5px;
+}
+
+.lp-12-fs{
+    font-size: 12px;
+}
+
+.lp-10-fs{
+    font-size: 10px;
+}
+
+.feature-title-value {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 30px
+}
+
+.down-outlined-icon {
+    font-size: 12px;
+    width: 20%;
+    border: none;
+    background: transparent;
+}
+
+.property-desc-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-desc-container .property-desc {
+    font-size: 12px;
+    padding: 10px
+}
+
+.property-card-content-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%
+}

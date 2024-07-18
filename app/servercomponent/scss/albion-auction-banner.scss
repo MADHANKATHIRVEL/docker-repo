@@ -1,0 +1,90 @@
+.albionauctionbanner {
+    width: 80%;
+    border-radius: 30px;
+    background-color: #8c193f;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+    height: 400px;
+    margin-top: 30px;
+
+    .white-glass-effect{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .auction-content {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 40px;
+
+        &>span {
+            color: #fff;
+        }
+
+        &>h2 {
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        .auction-redirect-button {
+            border-radius: 50px;
+            background: #fff;
+            color: #8c193f;
+            height: 40px;
+            box-sizing: border-box;
+            padding: 2px 20px;
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media (max-width : 550px) {
+        &>img {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width : 1200px){
+    .albionauctionbanner{
+        .albion-auction-place-holder{
+            width: 40%;
+            object-fit: contain;
+        }
+    }
+}
+
+
+@media (max-width : 550px) {
+    .albionauctionbanner{
+        width: 95%;
+        height: 200px;
+    }
+    .albionauctionbanner .auction-content>span {
+        font-size: 12px;
+    }
+
+    .albionauctionbanner .auction-content>h2 {
+        font-size: 16px;
+    }
+
+    .albionauctionbanner .auction-content .auction-redirect-button {
+        width: 100%;
+    }
+}
+

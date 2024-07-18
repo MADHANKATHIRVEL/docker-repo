@@ -1,0 +1,138 @@
+.property-image-slider-page{
+    background-color: #333 !important;
+    height: auto !important;
+    color: white !important;
+    min-height: 100vh;
+    height: auto;
+    font-size: 16px;
+}
+
+.property-image-slider-page .other-details{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.property-image-slider-page .other-details .propertydetails{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+    height: 100%;
+    width: 70%;
+}
+
+.property-image-slider-page .other-details .action-areas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+
+.property-name-and-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.property-description{
+    line-height: 30px;
+}
+
+
+.property-image-slider-page .contact-posted-person,
+.property-image-slider-page .download-brochure-person{
+    height: 40px;
+}
+
+
+
+.property-image-slider-page .contact-posted-person:hover,
+.property-image-slider-page .download-brochure-person:hover{
+    background-color: #8c193f !important;
+    color: white !important;
+    border: 1px solid #fff !important;
+    border-radius: 50px;
+}
+
+
+
+.closebtn{
+    position: absolute;
+    top: 5px;
+    left: 44.5%;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.viewdetailsbtn{
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+    margin: 0 auto;
+}
+
+.viewdetailsbtn:hover,
+.closebtn:hover{
+    height: 45px;
+    background-color: #333 !important;
+    color:  #fff !important;
+    border: 1px solid #fff !important;
+}
+
+
+.lightbox-pms{
+    width: 100%;
+    aspect-ratio: 2.5 / 1   
+}
+
+@media (max-width : 550px){
+    .propertydetails,
+    .action-areas{
+        width: 95% !important;
+    }
+    .property-image-slider-page .other-details,
+    .property-name-and-price{
+        flex-direction: column-reverse;
+        margin-top: 2%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .lightbox-pms{
+        width: 100%;
+        aspect-ratio: 1 / 1.050
+    }
+}
+
+@media (max-width : 800px){
+    .property-image-slider-page .other-details .action-areas{
+        width: 25%;
+    }
+}
+
+.phone-outlined-icon{
+    transform: rotate(90deg);
+}
+
+.property-expected-price{
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.yarl__button .close-modal-icon{
+    transform: scale(1.5)
+}

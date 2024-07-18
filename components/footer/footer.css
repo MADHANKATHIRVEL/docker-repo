@@ -1,0 +1,32 @@
+
+
+.location-links-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 4fr));
+  background: #333333;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 2%;
+  border: 1px solid;
+  min-height: 200px;
+}
+
+.location-links-footer .city-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer-links a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+  margin: 10px 0px;
+}

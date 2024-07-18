@@ -1,0 +1,120 @@
+.move-in-choices-inner-area {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 305px;
+    max-height: fit-content;
+    margin-top: 30px;
+    gap: 10px;
+
+    &>h3 {
+        color: #8c193f;
+
+        span {
+            color: #333;
+            font-weight: 400;
+        }
+    }
+
+    .availability-ql {
+        display: flex;
+        justify-content: space-between;
+
+        .avalability-link {
+            display: flex;
+            flex-direction: row;
+            width: 48%;
+            box-sizing: border-box;
+            padding: 20px;
+            border-radius: 4px;
+            align-items: center;
+            background: #DCF5EC;
+
+            .availabilty-desc {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                &>h4 {
+                    color: #000;
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+                &>span {
+                    color: #737373;
+                    font-size: 14px;
+                }
+            }
+
+            .availabilty-image {
+                height: 100%;
+                width: 40%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media (max-width : 800px) {
+    .availability-ql {
+        flex-direction: column;
+        gap: 10px;
+
+        .avalability-link {
+            width: 100% !important;
+        }
+    }
+}
+
+@media (max-width : 1200px) {
+
+    .move-in-choices-inner-area {
+        img {
+            width: 35% ;
+            object-fit: contain;
+        }
+    }
+}
+
+@media (max-width : 550px) {
+    .move-in-choices-inner-area{
+        height: 640px;
+
+        img{
+            width: 95%;
+        }
+
+    }
+
+    .avalability-link {
+        flex-direction: column-reverse !important;
+        padding: 10px !important;
+    }
+
+    .availabilty-desc {
+        width: 100% !important;
+    }
+    .move-in-choices-inner-area .availability-ql .avalability-link .availabilty-desc > h4{
+        font-size: 18px;
+    }
+    .move-in-choices-inner-area .availability-ql .avalability-link .availabilty-desc > span{
+        font-size: 12px;
+    }
+    .trending-projects-area > div h2{
+        font-size: 18px;
+    }
+    .trending-projects-area > div > a{
+        font-size: 12px;
+    }
+}
+

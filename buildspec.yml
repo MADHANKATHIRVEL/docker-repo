@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18             # Specifies the Node.js runtime version
+  pre_build:
+    commands:
+      - npm install -f       # Forces npm to install the packages
+  build:
+    commands:
+      - npm run build        # Runs the build script defined in package.json
+
+artifacts:
+  files: 
+    - '**/*'              # Includes all files and subdirectories from the root directory
+    - 'appspec.yml'          # Includes the appspec.yml file
+    - 'scripts/**'  

@@ -1,0 +1,289 @@
+.property-valuation-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  top: 30px;
+}
+
+.property-valuation-content-section {
+  width: 80%;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px !important;
+}
+
+.main-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sub-para {
+  text-align: left;
+  color: #737373;
+}
+
+.section__heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.common-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px !important;
+}
+
+.valuation-grid {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid-box {
+  border: 1px solid #cccccc;
+  width: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-box:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.common-section .static-card1 {
+  border: 1px solid #cccccc;
+  width: 70%;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 35px;
+}
+
+.pv-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.pv-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media (max-width: 550px) {
+  .property-valuation-content-section .main-heading {
+    font-size: 14px;
+  }
+
+  .property-valuation-content-section .sub-para {
+    font-size: 12px;
+  }
+
+  .section__heading {
+    width: 320px;
+  }
+
+  .common-section .static-card1 {
+    border: 1px solid #cccccc;
+    width: 100%;
+    padding: 0px;
+    line-height: 28px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+}
+
+.property-valuation-form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #cccccc30;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.property-val-ls {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-pv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookPropertyValuation {
+  background-color: #8c193f !important;
+  color: white !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px !important;
+  width: 100% !important;
+}
+
+.bookPropertyValuation:hover {
+  background-color: white !important;
+  border: 1px solid #8c193f !important;
+  color: #8c193f !important;
+}
+
+.head-pv-form {
+  font-size: clamp(12px, 5vw, 14px);
+  line-height: 25px;
+}
+
+.by-agreeing {
+  font-size: 16px;
+}
+
+@media (max-width: 720px) {
+  .property-val-ls,
+  .property-valuation-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-heading {
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+  .common-section {
+    padding: 10px;
+    margin-top: 0px !important;
+  }
+  .common-section .section__heading {
+    width: 100%;
+    text-align: center;
+  }
+  .grid-box {
+    width: 100%;
+    height: auto !important;
+    gap: 2px !important;
+  }
+  .common-section .static-card1 {
+    padding: 10px;
+  }
+  .sub-para {
+    font-size: 15px !important;
+    line-height: 30px;
+  }
+  .property-valuation-form {
+    margin-top: 5%;
+  }
+  .property-valuation-form .head-pv-form {
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  .head-pv-form {
+    font-size: 16px !important;
+    line-height: 25px;
+  }
+  .by-agreeing {
+    font-size: 14px !important;
+  }
+  .bookPropertyValuation {
+    font-size: 14px !important;
+    height: 40px;
+  }
+  .pv-title {
+    font-size: 16px !important;
+  }
+  .pv-desc {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .property-val-ls,
+  .property-valuation-form {
+    width: 100%;
+    text-align: center;
+  }
+  .common-section .static-card1 {
+    transform: scale(1);
+  }
+  .property-val-ls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+  }
+  .property-valuation-form {
+    margin-top: 30px !important;
+  }
+  .common-section {
+    margin-top: 30px !important;
+  }
+  .sub-para {
+   text-align: center !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .property-val-ls {
+    width: 100%;
+    text-align: center;
+  }
+  .property-valuation-form {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .property-valuation-page {
+    top: 10px;
+  }
+  .static__banner {
+    display: none !important;
+  }
+  .common-section {
+    padding: 0px 10px;
+    margin-top: 0px !important;
+  }
+}
+
+
+.albiontc{
+  color: #8c193f;
+  cursor: pointer;
+}
+.w-100{
+  color: white;
+  width: 100%;
+}
+.pr
+
+.mobileNumberInput{
+  border-radius: 0px;
+  height: 30px;
+  width: 100%
+}

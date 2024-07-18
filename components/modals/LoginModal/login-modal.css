@@ -1,0 +1,18 @@
+.login-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.login-modal .googleIcon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-modal a{
+    color: #8C193F;
+}

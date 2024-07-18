@@ -1,0 +1,388 @@
+.get-enquireform {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 20px;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+  width: 40%;
+}
+
+.get-enquireform .maintitle {
+  font-size: 1.2rem;
+}
+
+.get-enquireform .maintitle > span{
+  color: #8c193f;
+}
+
+.getEnquiryBtn {
+  background-color: #8c193f !important;
+  color: white !important;
+  width: 100%;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.getEnquiryBtn:hover {
+  border-radius: 4px !important;
+  border: 1px solid #8c193f !important;
+  background-color: white !important;
+  color: #8c193f !important;
+}
+
+.checkRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  gap: 20px;
+}
+
+.package-mover-page {
+    margin-top: 75px;
+}
+
+.howItWorks {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.howItWorks section {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.howItWorks section .headtext {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.howItWorks section .subText {
+  color: #737373;
+  font-size: 0.9rem;
+}
+
+.ant-steps-item-description {
+  width: 180px;
+  position: relative;
+  left: -30px;
+}
+
+.howItWorks .ant-steps-item-tail::after {
+  background-color: #cccccc !important;
+}
+
+.albion-adv-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90% !important;
+  height: 100%;
+  gap: 30px;
+}
+
+.albion-adv-list .albionadvtext {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.adv-point {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.adv-point span {
+  color: #737373;
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.alb-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.why-albion-banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.why-albion__banner-is {
+  width: 80%;
+  height: auto;
+}
+
+.why-albion__banner-is img {
+  height: 100%;
+  width: 100%;
+  object-fit: unset;
+}
+
+.interior-design-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.other-service-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 28%;
+  padding: 20px;
+  text-align: left;
+  gap: 15px;
+  border: 1px solid #cccccc;
+  min-width: 250px;
+  margin-top: 10px;
+  transition: transform ease-in-out 0.2s;
+  border-radius: 4px;
+}
+
+.other-service-card .sc-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  align-items: center;
+}
+
+.other-service-card:hover {
+  transform: translate(0%, -5%);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+@media (max-width: 768px) {
+  .home-interior__inner-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .design-important__inner-sec {
+    width: 100%;
+  }
+  .design-important__inner-sec .ifdesc {
+    width: 90%;
+  }
+  .get-enquireform {
+    align-items: center;
+  }
+}
+
+.freeRentGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.freePoints {
+  border: 1px solid #cccccc;
+  background-color: white !important;
+  padding: 20px;
+  width: 280px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.freePoints:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.freePoints .header {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.freePoints .alignLeft {
+  font-size: 14px;
+  color: #737373;
+  text-align: center;
+}
+
+.design-important {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.design-important__inner-sec {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.design-important__inner-sec .iftitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.other-service-card {
+  flex-direction: column;
+}
+
+@media (max-width: 650px) {
+  .get-enquireform {
+    width: 80%;
+  }
+}
+
+.cardtitle {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.carddescription {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.web-free-rent {
+  display: block;
+}
+.mobile-free-rent {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .web-free-rent {
+    display: none;
+  }
+  .mobile-free-rent {
+    display: block;
+  }
+  .get-enquireform {
+    margin: 0 auto;
+    margin-top: 30px !important;
+    align-items: center;
+  }
+  .maintitle {
+    font-size: 24px !important;
+    font-weight: 600;
+  }
+  .checkRow,
+  .getEnquiryBtn {
+    font-size: 14px !important;
+  }
+  .headtext {
+    font-size: 24px !important;
+    letter-spacing: normal !important;
+    text-align: center;
+  }
+  .subText {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+  }
+  .getEnquiryBtn {
+    font-size: 14px !important;
+  }
+  .freePoints .alignLeft {
+    font-size: 16px;
+  }
+  .cardtitle {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  .carddescription {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .howItWorks section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .get-enquireform {
+    margin-top: -20px;
+  }
+  .interior-design-grid {
+    justify-content: center;
+  }
+  .freeRentGrid{
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .freePoints {
+    width: 250px;
+  }
+  .other-service-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .carddescription {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .freePoints,
+  .other-service-card {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .design-important__inner-sec .iftitle {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .design-important__inner-sec .ifdesc {
+    text-align: center;
+  }
+  .design-important {
+    margin-top: 30px;
+  }
+  .interior-design-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-albion-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .mobile-free-rent-img{
+    width: 100%;
+  }
+}
+
+
+.colorOnlyGreen{
+  color: green;
+}
